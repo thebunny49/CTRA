@@ -1,0 +1,150 @@
+.support{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    left: 10px;
+    top:25%;
+        
+    position:fixed;
+}
+.chatsupport{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+    bottom: 10px;
+    right: 30px;
+        
+    position:fixed;
+}
+
+.chatsupport2{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+    bottom: 10px;
+    left: 10px;
+        
+    position:fixed;
+}
+
+
+.fb{
+    background-image: url('../assets/facebook.png');
+ background-size: cover;
+ cursor: pointer;
+ background-color: #fff;
+
+}
+
+.ig{
+  background-image: url('../assets/ig.png');
+  background-size:contain;
+cursor: pointer;
+  background-color: #fff;
+
+}
+
+.wa{  
+  background-image: url('../assets/whatsapp.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.yt{
+  background-image: url('../assets/tg.png');
+  background-size: cover;
+  cursor: pointer;
+
+}
+
+ .homecircle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #560606aa;
+  }
+  
+  .homepulse {
+    animation: pulse-animation 3s infinite;
+  }
+  .homepulse2 {
+    animation: pulse-animation2 3s infinite;
+  }
+  .homepulse3 {
+    animation: pulse-animation3 3s infinite;
+  }
+  .homepulse4 {
+    animation: pulse-animation4 3s infinite;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(255, 0, 0, 0.764);
+      opacity: 1;
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 104, 4, 0.951);
+      opacity: 0;
+    }
+  }
+  @keyframes pulse-animation2 {
+    0% {
+      box-shadow: 0 0 0 0px  rgba(58, 88, 151, 0.764);
+      opacity: 1;
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(58, 88, 151, 0.951);
+      opacity: 0;
+    }
+  }
+  @keyframes pulse-animation3 {
+    0% {
+      box-shadow: 0 0 0 0px  rgba(69, 186, 92, 0.764);
+      opacity: 1;
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(69, 186, 92, 0.951);
+      opacity: 0;
+    }
+  }
+  @keyframes pulse-animation4 {
+    0% {
+      box-shadow: 0 0 0 0px rgba(58, 183, 228, 0.764);
+      opacity: 1;
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(58, 183, 228, 0.951);
+      opacity: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .support{
+      display: none;
+    }
+  }
+
+  .loader {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 20px 40px #ff4646, 0px -20px 40px #8949ff, 20px 0px 40px#ff07fb, -20px 0px 40px #ff07fb;
+    border-radius: 10em;
+    position: relative;
+    animation: rotate 1s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

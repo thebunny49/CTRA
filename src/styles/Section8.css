@@ -1,0 +1,110 @@
+ .s9main{
+    width: 100%;
+    background-color: pink;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+  z-index: 1;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+ }
+.s8cardsdiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.s8card{
+    padding: 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.s8card-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.s8card-text{
+  text-align: justify;
+}
+.s8img{
+    width:100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.s8card-body{
+    padding: 20px 0px;
+}
+.s8btn{
+    float: right;
+    
+}
+
+ .logo-container {
+   top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+ 
+
+   
+  }
+  .logo-container2 {
+    top: 0;
+     left: 0;
+     width: 80px;
+     height: 80px;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+     
+   }
+   .arimg{
+    width: 60px;
+     height: 60px;
+     transition: 3s;
+
+   }
+   .arimg:hover{
+    width: 70px;
+     height: 70px;
+
+   }
+  
+  path {
+    fill: transparent;
+    
+  }
+  
+  .cpath{
+    
+                animation: rotate-center 6.6s linear infinite;
+    
+ }
+ @keyframes rotate-center {
+    0% {
+      
+              transform: rotate(0);
+    }
+    100% {
+     
+              transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width:768px){
+    .s8card-text{
+      font-size: 14px;
+    }
+   
+  }

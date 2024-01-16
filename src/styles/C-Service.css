@@ -1,0 +1,249 @@
+#CSsec2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+
+#CSleft {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.CSsmall {
+    color: #eb5722;
+    font-family: 'Manrope', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    width: 100%;
+    font-weight: 500;
+    line-height: 19.2px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.CSheading {
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    width: 100%;
+    line-height: 52px;
+    /* 130% */
+    text-transform: capitalize;
+}
+
+.CSparagraph {
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    justify-self: center;
+    font-weight: 300;
+    line-height: 28.25px;
+    /* 175% */
+}
+
+.CSbutton {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+/* button code */
+.dexbutton {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid #f88410;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.dexbutton:hover {
+    background: #f88410;
+    box-shadow: 0 0 30px 5px hsla(30, 94%, 52%, 0.881);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.dexbutton:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+}
+
+.dexbutton::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+#CSright {
+
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CS5main {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.CS5small {
+    color: #eb5722;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    width: 100%;
+    font-weight: 500;
+    line-height: 19.2px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#CSsec3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.CScard {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.CScard::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.CScard:hover::before {
+    height: 100%;
+}
+
+.CScard:hover {
+    box-shadow: none;
+}
+
+.CScontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #e8e8e8;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.CScontent .heading {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.CScontent .para {
+    line-height: 1.5;
+    font-size: 16;
+}
+
+@media (max-width:768px) {
+
+
+    #CSsec2 {
+        flex-direction: column-reverse;
+    }
+
+    #CSleft {
+        width: auto;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #CSright {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .CScard {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .CScard {
+    width: 40%;
+}}

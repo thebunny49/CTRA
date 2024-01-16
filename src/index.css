@@ -1,0 +1,53 @@
+
+body{
+  font-family: Manrope,TypoGraphica, Gilroy,Raleway, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+  overflow-x: hidden;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: "TypoGraphica";
+  src: local("TypoGraphica"),
+   url("./fonts/Typographica-Blp5/.ttf") format("truetype");
+  font-weight: bold;
+ }
+ @font-face {
+  font-family: "Quantify";
+  src: local("Quantify"),
+   url("./fonts/Quantify-8M80Z/.ttf") format("truetype");
+  font-weight: bold;
+ }
+ @font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+   url("./fonts/Raleway/.ttf") format("truetype");
+  font-weight: bold;
+ }
+ @font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+   url("./fonts/RalewayBold/.ttf") format("truetype");
+  font-weight: bold;
+ }
+ @font-face {
+  font-family: "QUICK-ZIP";
+  src: local("QUICK-ZIP"),
+   url("./fonts/QUICK-ZIP.ttf") format("truetype");
+  
+ }
+ @font-face {
+  font-family: "HelloPagon-Black";
+  src: local("HelloPagon-Black"),
+   url("./fonts/HelloPagon-Black.ttf") format("truetype");
+  font-weight: bold;
+ }
