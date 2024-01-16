@@ -28,6 +28,10 @@ import fwimg44 from "/Framework/lang4.png"
 import fwimg45 from "/Framework/lang5.png"
 import fwimg46 from "/Framework/lang6.png"
 
+import pdf1 from "../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf"
+import pdf2 from "../assets/pdf/CRYPTORA  PRODUCT PROPOSAL 3.pdf"
+import pdf3 from "../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf"
+
 import folderimg from "../assets/logo/folderimg.png"
 const Section6 = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -48,22 +52,22 @@ const Section6 = () => {
                 <input type="radio" name="tabs" id="home-ch"
                   onClick={() => handleSectionChange('home')}
                 />
-                <label htmlFor="home-ch" style={{ background: activeSection === 'home' ? '#7B61FF' : 'none' }} id="home-lb"  ><div><i className="fa-solid fa-house"></i> Framework</div></label>
+                <label htmlFor="home-ch" style={{ background: activeSection === 'home' ? '#7B61FF' : 'none' }} id="home-lb"  ><div>  Framework</div></label>
 
                 <input type="radio" name="tabs" id="blog-ch"
                   onClick={() => handleSectionChange('blog')} />
 
-                <label htmlFor="blog-ch" style={{ background: activeSection === 'blog' ? '#7B61FF' : 'none' }} id="blog-lb"><div><i className="fa-brands fa-blogger"></i> Frontend/Backend</div></label>
+                <label htmlFor="blog-ch" style={{ background: activeSection === 'blog' ? '#7B61FF' : 'none' }} id="blog-lb"><div>  Frontend/Backend</div></label>
 
                 <input type="radio" name="tabs" id="code-ch"
                   onClick={() => handleSectionChange('code')} />
 
-                <label htmlFor="code-ch" style={{ background: activeSection === 'code' ? '#7B61FF' : 'none' }} id="code-lb"><div><i className="fa-solid fa-code"></i> Tools</div></label>
+                <label htmlFor="code-ch" style={{ background: activeSection === 'code' ? '#7B61FF' : 'none' }} id="code-lb"><div>  Tools</div></label>
 
                 <input type="radio" name="tabs" id="project-ch"
                   onClick={() => handleSectionChange('project')} />
 
-                <label htmlFor="project-ch" style={{ background: activeSection === 'project' ? '#7B61FF' : 'none' }} id="project-lb"><div><i className="fa-solid fa-bars-progress"></i> Language</div></label>
+                <label htmlFor="project-ch" style={{ background: activeSection === 'project' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Language</div></label>
 
               </div>
               <div id="text">
@@ -74,29 +78,29 @@ const Section6 = () => {
                     <div className='boxdetail'>
                       <div className="fwbox">
                         <img src={fwimg1} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg2} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg3} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
                         <img src={fwimg4} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg5} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg6} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                     </div>
 
@@ -111,29 +115,29 @@ const Section6 = () => {
                     <div className='boxdetail'>
                       <div className="fwbox">
                         <img src={fwimg21} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg22} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg23} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
                         <img src={fwimg24} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg25} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg26} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                     </div>
 
@@ -149,29 +153,29 @@ const Section6 = () => {
                     <div className='boxdetail'>
                       <div className="fwbox">
                         <img src={fwimg31} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg32} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg33} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
                         <img src={fwimg34} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg35} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg36} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                     </div>
 
@@ -187,29 +191,29 @@ const Section6 = () => {
                     <div className='boxdetail'>
                       <div className="fwbox">
                         <img src={fwimg41} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg42} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg43} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
                         <img src={fwimg44} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg45} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                       <div className="fwbox">
                         <img src={fwimg46} className='fwimg' alt="" />
-                        <p>Icon1</p>
+
                       </div>
                     </div>
 
@@ -226,21 +230,21 @@ const Section6 = () => {
       </div>
 
       <div id="pdf-cards">
-        <a target='blank' id='card' href="../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf">
-              <h5 className="card-text">Pitch Desk</h5>
-              <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
+        <a target='blank' id='card' href={pdf1}>
+          <h5 className="card-text">Pitch Desk</h5>
+          <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
         </a>
-        <a target='blank' id='card' href=" ../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf">
-    
-              <h5 className="card-text">Service Catalogue</h5>
-              <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
- 
+        <a target='blank' id='card' href={pdf2}>
+
+          <h5 className="card-text">Service Catalogue</h5>
+          <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
+
         </a>
-        <a target='blank' id='card' href="../assets/pdf/CRYPTORA  PRODUCT PROPOSAL 3.pdf">
-    
-              <h5 className="card-text">Product Catalogue</h5>
-              <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
- 
+        <a target='blank' id='card' href={pdf3}>
+
+          <h5 className="card-text">Product Catalogue</h5>
+          <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
+
         </a>
 
       </div>

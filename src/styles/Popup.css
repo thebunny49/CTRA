@@ -8,8 +8,9 @@
     /* padding: 0px 20px 20px 20px; */
      
 }
-.si{
+.si2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap:30px;
 }

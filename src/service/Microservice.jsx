@@ -78,7 +78,7 @@ const Microservice = () => {
        </div>
        <div className="chatsupport2" >
         <div className="chat" style={{width:50, height:50, overflow:"hidden",borderRadius:"150px", backgroundColor:"white", display:"flex", justifyContent:"center", alignItems:'center'}}>
-          <img src={whatsapp} alt="" style={{width:40, height:40 }} />
+          <a href="https://bit.ly/3GnnFUJ" target='blank' ><img src={whatsapp} alt="" style={{ width: 30, height: 30 }} />  </a>
         </div>
        </div>
     </>
