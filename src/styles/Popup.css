@@ -119,7 +119,7 @@ input[type="tel"] {
         padding: 10px;
         background-color: #222227;
         /* border: 1px solid #ccc; */
-        /* border-radius: 12px; */
+        border-radius: 12px;
         font-size: 16px;
         border: none;
         /* Adjust font family, color, and spacing as needed */
@@ -223,7 +223,7 @@ form {
         padding: 10px;
 
         /* border: 1px solid #ccc; */
-        border-radius: 12px;
+        border-radius: 5px !important;
         font-size: 16px;
         border: none;
         /* Adjust font family, color, and spacing as needed */
