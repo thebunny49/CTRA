@@ -42,6 +42,7 @@ const Section6 = () => {
   return (
     <>
       <div className="s7main ">
+      <div className="s6overlay"></div>
         <div className="t-area">
           <p className='s7para1'> Empowering Innovation Through Our Cutting-Edge Tech Stack</p>
 

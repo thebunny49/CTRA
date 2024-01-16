@@ -21,6 +21,7 @@ function Section1() {
 <h1 
    className='heading text-focus-in'>CRYPTO AND BLOCKCHAIN <br />DEVELOPMENT</h1>
 <p className='para' >Are you looking for ICO Marketing ? We provide crypto and blockchain development company with experience in NFT marketplace development, token development, crypto wallet development.</p>
+<br />
 <div className='know'>
 <button className='s4button' id='btn1'>
 Cryptora Service

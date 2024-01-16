@@ -160,7 +160,7 @@ const TopNavbar = () => {
 
                   </buttonb>
                 </Link>
-                <div class="nftdropdown-content">
+                {/* <div class="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -171,7 +171,7 @@ const TopNavbar = () => {
                       <a href="#">Social Media Marketing</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div class="nftdropdown">
                 <Link to="/nft" style={{ textDecoration: "none" }}>
@@ -181,7 +181,7 @@ const TopNavbar = () => {
                   </buttonb>
                 </Link>
 
-                <div class="nftdropdown-content">
+                {/* <div class="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -192,18 +192,18 @@ const TopNavbar = () => {
                       <a href="#">Social Media Marketing</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div class="nftdropdown">
                 <Link to="/decentralized" style={{ textDecoration: "none" }}>
                   <buttonb >
-                    Decentralized Exchange
+                    DEX
 
                   </buttonb>
                 </Link>
 
-                <div class="nftdropdown-content">
+                {/* <div class="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#"><span className="navtext">NFT Marketplace</span></a>
@@ -214,7 +214,7 @@ const TopNavbar = () => {
                       <a href="#">Social Media Marketing</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div class="nftdropdown">
@@ -225,7 +225,7 @@ const TopNavbar = () => {
                   </buttonb>
                 </Link>
 
-                <div class="nftdropdown-content">
+                {/* <div class="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -236,7 +236,7 @@ const TopNavbar = () => {
                       <a href="#">Social Media Marketing</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div class="nftdropdown">
 
@@ -246,7 +246,7 @@ const TopNavbar = () => {
 
                   </buttonb>
                 </Link>
-                <div class="nftdropdown-content">
+                {/* <div class="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -257,7 +257,7 @@ const TopNavbar = () => {
                       <a href="#">Social Media Marketing</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div class="nftdropdown">
 
@@ -267,7 +267,7 @@ const TopNavbar = () => {
 
                   </buttonb>
                 </Link>
-                <div class="nftdropdown-content">
+                {/* <div class="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -278,7 +278,7 @@ const TopNavbar = () => {
                       <a href="#">Social Media Marketing</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div class="nftdropdown">
                 <Link to="/blockchain" style={{ textDecoration: "none" }}>
@@ -288,7 +288,7 @@ const TopNavbar = () => {
                   </buttonb>
                 </Link>
 
-                <div class="nftdropdown-content">
+                {/* <div class="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -299,7 +299,7 @@ const TopNavbar = () => {
                       <a href="#">Social Media Marketing</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
             </div>

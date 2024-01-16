@@ -81,6 +81,7 @@ const Decentralized = () => {
            <div id="DEleft">
                 <p className='DEhead'>{data.heading1}</p>
                 <p className='DEpara'>{data.para1}</p>
+                <br />
                 <div className='DEbutton'>
 <button className='dexbutton' id='btn1'>
 {data.button1}
@@ -103,6 +104,7 @@ const Decentralized = () => {
             <p className='DEsmall'>{data.small2}</p>
                 <p className='DEheading'>{data.heading2}</p>
                 <p className='DEparagraph'>{data.paragraph2}</p>
+                <br />
                 <div className='DEbutton'>
 <button className='dexbutton'>
 Talk to Expert
@@ -191,6 +193,7 @@ Talk to Expert
             <p className='DEsmall'>{data.small4} </p>
                 <p className='DEheading'>{data.heading4}</p>
                 <p className='DEparagraph'>{data.paragraph4}</p>
+                <br />
                 <div className='DEbutton'>
 <button className='dexbutton'>
 Talk to Expert

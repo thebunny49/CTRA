@@ -13,6 +13,9 @@
 .sec2left{
     padding: 80px;
     width:70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .s2heading{
     color: #FFF;

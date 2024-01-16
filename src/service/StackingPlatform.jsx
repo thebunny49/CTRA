@@ -80,6 +80,7 @@ const StackingPlatform = () => {
            <div id="stakingleft">
                 <p className='stakinghead'>{data.heading1}</p>
                 <p className='stakingpara'>{data.para1}</p>
+                <br />
                 <div className='stakingbutton'>
 <button className='dexbutton'>
 {data.button1}
@@ -105,6 +106,7 @@ const StackingPlatform = () => {
             <p className='stakingsmall'>{data.small2}</p>
                 <p className='stakingheading'>{data.heading2}</p>
                 <p className='stakingparagraph'>{data.paragraph2}</p>
+                <br />
                 <div className='stakingbutton'>
 <button className='dexbutton'>
 Talk to Expert
@@ -193,6 +195,7 @@ Talk to Expert
             <p className='stakingsmall'>{data.small4} </p>
                 <p className='stakingheading'>{data.heading4}</p>
                 <p className='stakingparagraph'>{data.paragraph4}</p>
+                <br />
                 <div className='stakingbutton'>
 <button className='dexbutton'>
 Talk to Expert

@@ -29,6 +29,7 @@ const Section5 = () => {
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  BEP Token</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Polygon Token</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  NFT Token</p>
+  <a style={{textDecoration:"none",width:300, textAlign:"center" }} className='s4button' href="https://bit.ly/3GnnFUJ">Expert Consultantly</a>
   
   </div>
   {/* <a href="#" className="btn-shine" target="_blank">TOKEN DEVELOPMENT</a> */}
@@ -56,6 +57,7 @@ const Section5 = () => {
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Community Building</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} /> Social Media Marketing</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  NFT Token</p>
+  <a style={{textDecoration:"none",width:300, textAlign:"center" }} className='s4button' href="https://bit.ly/3GnnFUJ">Expert Consultantly</a>
   </div>
 </div>
 <div className="s5right">
@@ -89,6 +91,7 @@ const Section5 = () => {
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Pay Per Click</p>
   </div>
 </div>
+<a style={{textDecoration:"none",width:300, textAlign:"center" }} className='s4button' href="https://bit.ly/3GnnFUJ">Expert Consultantly</a>
 
 
   </div>
@@ -112,6 +115,7 @@ const Section5 = () => {
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  BEP Token</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Polygon Token</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  NFT Token</p>
+  <a style={{textDecoration:"none",width:300, textAlign:"center" }} className='s4button' href="https://bit.ly/3GnnFUJ">Expert Consultantly</a>
   </div>
 </div>
 <div className="s5right">
@@ -148,6 +152,7 @@ const Section5 = () => {
   
   </div>
  </div> 
+ <a style={{textDecoration:"none", width:300, textAlign:"center" }} className='s4button' href="https://bit.ly/3GnnFUJ">Expert Consultantly</a>
 
   </div>
 </div>

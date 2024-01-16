@@ -103,6 +103,7 @@ const Blockchain = () => {
            <div id="blockchainleft">
                 <p className='blockchainhead'>{data.heading1}</p>
                 <p className='blockchainpara'>{data.para1}</p>
+                <br />
                 <div className='blockchainbutton'>
 <button className='dexbutton'>
 {data.button1}
@@ -129,6 +130,7 @@ const Blockchain = () => {
             <p className='blockchainsmall'>{data.small2}</p>
                 <p className='blockchainheading'>{data.heading2}</p>
                 <p className='blockchainparagraph'>{data.paragraph2}</p>
+                <br />
                 <div className='blockchainbutton'>
 <button className='dexbutton'>
 Talk to Expert
