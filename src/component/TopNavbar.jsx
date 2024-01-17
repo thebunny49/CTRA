@@ -26,12 +26,12 @@ const TopNavbar = () => {
             </div>
             <div className="nav1">
             
-            <div class="nftdropdown">
+            <div className="nftdropdown">
     <buttonb >
    CRYPTOCURRENCY
       
     </buttonb>
-    <div class="nftdropdown-content">
+    <div className="nftdropdown-content">
      <div className="navdiv">
       <div className="navcontent">
       <a href="#">NFT Marketplace</a>
@@ -44,12 +44,12 @@ const TopNavbar = () => {
      </div>
     </div>
   </div> 
-            <div class="nftdropdown">
+            <div className="nftdropdown">
     <buttonb >
     NFT Marketplace
       
     </buttonb>
-    <div class="nftdropdown-content">
+    <div className="nftdropdown-content">
      <div className="navdiv">
       <div className="navcontent">
       <a href="#">NFT Marketplace</a>
@@ -63,12 +63,12 @@ const TopNavbar = () => {
     </div>
   </div> 
  
-  <div class="nftdropdown">
+  <div className="nftdropdown">
     <buttonb >
     Decentralized Exchange
       
     </buttonb>
-    <div class="nftdropdown-content">
+    <div className="nftdropdown-content">
      <div className="navdiv">
       <div className="navcontent">
       <a href="#"><span className="navtext">NFT Marketplace</span></a>
@@ -81,12 +81,12 @@ const TopNavbar = () => {
      </div>
     </div>
   </div> 
-  <div class="nftdropdown">
+  <div className="nftdropdown">
     <buttonb >
     ICO
       
     </buttonb>
-    <div class="nftdropdown-content">
+    <div className="nftdropdown-content">
      <div className="navdiv">
       <div className="navcontent">
       <a href="#">NFT Marketplace</a>
@@ -99,12 +99,12 @@ const TopNavbar = () => {
      </div>
     </div>
   </div> 
-  <div class="nftdropdown">
+  <div className="nftdropdown">
     <buttonb >
     STACKING PLATFORM
       
     </buttonb>
-    <div class="nftdropdown-content">
+    <div className="nftdropdown-content">
      <div className="navdiv">
       <div className="navcontent">
       <a href="#">NFT Marketplace</a>
@@ -117,12 +117,12 @@ const TopNavbar = () => {
      </div>
     </div>
   </div> 
-  <div class="nftdropdown">
+  <div className="nftdropdown">
     <buttonb >
    CRYPTO WALLET
       
     </buttonb>
-    <div class="nftdropdown-content">
+    <div className="nftdropdown-content">
      <div className="navdiv">
       <div className="navcontent">
       <a href="#">NFT Marketplace</a>
@@ -142,25 +142,24 @@ const TopNavbar = () => {
                 <Button1 />
             </div>
         </div> */}
-      <nav class=" navbar navbar-expand-lg nav">
+      <nav className=" navbar navbar-expand-lg nav">
 
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">                <img src={Logo} alt="" style={{ width: "70%", height: "70%" }} />
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/"><img src={Logo} alt="" style={{ width: "90%", height: "90%" }} />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span ><img src="/apps.png" alt="" /></span>
           </button>
-          <div class="collapse navbar-collapse navcollapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse navcollapse" id="navbarSupportedContent">
             <div className="nav1 navbar-nav me-auto mb-2 mb-lg-0">
 
-              <div class="nftdropdown">
+              <div className="nftdropdown">
                 <Link to="/crypto" style={{ textDecoration: "none" }}>
                   <buttonb >
                     CRYPTOCURRENCY
-
                   </buttonb>
                 </Link>
-                {/* <div class="nftdropdown-content">
+                {/* <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -173,7 +172,7 @@ const TopNavbar = () => {
                   </div>
                 </div> */}
               </div>
-              <div class="nftdropdown">
+              <div className="nftdropdown">
                 <Link to="/nft" style={{ textDecoration: "none" }}>
                   <buttonb >
                     <span style={{ textAlign: 'center' }}>NFT Marketplace</span>
@@ -181,7 +180,7 @@ const TopNavbar = () => {
                   </buttonb>
                 </Link>
 
-                {/* <div class="nftdropdown-content">
+                {/* <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -195,7 +194,7 @@ const TopNavbar = () => {
                 </div> */}
               </div>
 
-              <div class="nftdropdown">
+              <div className="nftdropdown">
                 <Link to="/decentralized" style={{ textDecoration: "none" }}>
                   <buttonb >
                     DEX
@@ -203,7 +202,7 @@ const TopNavbar = () => {
                   </buttonb>
                 </Link>
 
-                {/* <div class="nftdropdown-content">
+                {/* <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#"><span className="navtext">NFT Marketplace</span></a>
@@ -217,15 +216,15 @@ const TopNavbar = () => {
                 </div> */}
               </div>
 
-              <div class="nftdropdown">
+              <div className="nftdropdown">
                 <Link to="/ico" style={{ textDecoration: "none" }}>
                   <buttonb >
-                    ICO
+                    ICO MAKETING
 
                   </buttonb>
                 </Link>
 
-                {/* <div class="nftdropdown-content">
+                {/* <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -238,7 +237,7 @@ const TopNavbar = () => {
                   </div>
                 </div> */}
               </div>
-              <div class="nftdropdown">
+              <div className="nftdropdown">
 
                 <Link to="/stacking" style={{ textDecoration: "none" }}>
                   <buttonb >
@@ -246,7 +245,7 @@ const TopNavbar = () => {
 
                   </buttonb>
                 </Link>
-                {/* <div class="nftdropdown-content">
+                {/* <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -259,7 +258,7 @@ const TopNavbar = () => {
                   </div>
                 </div> */}
               </div>
-              <div class="nftdropdown">
+              <div className="nftdropdown">
 
                 <Link to="/cryptowallet" style={{ textDecoration: "none" }}>
                   <buttonb >
@@ -267,7 +266,7 @@ const TopNavbar = () => {
 
                   </buttonb>
                 </Link>
-                {/* <div class="nftdropdown-content">
+                {/* <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -280,7 +279,7 @@ const TopNavbar = () => {
                   </div>
                 </div> */}
               </div>
-              <div class="nftdropdown">
+              <div className="nftdropdown">
                 <Link to="/blockchain" style={{ textDecoration: "none" }}>
                   <buttonb >
                     Blockchain
@@ -288,7 +287,7 @@ const TopNavbar = () => {
                   </buttonb>
                 </Link>
 
-                {/* <div class="nftdropdown-content">
+                {/* <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">NFT Marketplace</a>
@@ -301,6 +300,8 @@ const TopNavbar = () => {
                   </div>
                 </div> */}
               </div>
+
+              
 
             </div>
             <div className="nav3"  >

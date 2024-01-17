@@ -2,6 +2,7 @@ buttonb {
   font-size: 12px;
   color: #e1e1e1;
   font-family: inherit;
+  letter-spacing: 1px;
   text-align: center;
   font-weight: 600;
   cursor: pointer;
@@ -40,8 +41,8 @@ buttonb:after {
   transition-property: width, left;
 }
 
-@media (max-width:1172px) and (min-width:900px){
+/* @media (max-width:1172px) and (min-width:900px){
   buttonb{
     font-size: 8px;
   }
-}
+} */

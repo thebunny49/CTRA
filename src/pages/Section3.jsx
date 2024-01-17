@@ -1,6 +1,7 @@
 import React from 'react'
 import S3Cards from '../component/S3Cards'
 import '../styles/Section3.css'
+import crypto from "../service/Crypto"
 const Section3 = () => {
   return (
    <>
@@ -13,7 +14,7 @@ const Section3 = () => {
    </div>
    <div className="s3main">
    
-   <S3Cards title="Token Development" text="The Token Development Services aid in the development of Ethereum tokens. ERC20 and the BEP20 are some of the Ethereum Tokens." />
+    <S3Cards title="Token Development" text="The Token Development Services aid in the development of Ethereum tokens. ERC20 and the BEP20 are some of the Ethereum Tokens." refer={crypto} />
     <S3Cards title="Crypto Exchange"  text="DEXs, or decentralized exchanges, allow consumers to purchase and sell cryptocurrencies without the involvement of brokers." />
     <S3Cards title="NFT Marketplace" text="NFT marketplaces built by us are feature-rich, decentralized, and facilitate tokenization of all kinds of assets, artwork, gaming cards." />
     <S3Cards  title="ICO Marketplace" text="Cryptora is the premier NFT game development company that can assist you in launching your gaming platform based on bespoke blockchain and NFTs." />

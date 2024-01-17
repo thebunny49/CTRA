@@ -1,6 +1,6 @@
 .s7main{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ font-weight: bolder;
 }
 .s6overlay{
     width: 100%;
-    height: 100vh;
+    min-height: 100%;
     background-color: #00000043;
     mix-blend-mode:multiply;
     position: absolute;
@@ -35,6 +35,7 @@ font-weight: bolder;
     background-color: transparent;
 
 }
+
 .fwbox{
     
         display: inline-block;
@@ -101,7 +102,8 @@ background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+    /* flex-wrap: wrap; */
     align-items: center;
 }
 
@@ -128,6 +130,7 @@ background-color: transparent;
 #blog-txt,
 #code-txt,
 #project-txt,
+#database-txt,
 #about-txt{
     display: none;
 }
@@ -155,11 +158,12 @@ background-color: transparent;
     /* background-color: red; */
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 90%;
+     
     justify-content: center;
     margin:0 auto;
-    padding: 20px;
-    gap: 30px;
+    padding: 50px 0px ;
+    gap: 50px;
     margin-bottom: 30px;
 }
 #card{
@@ -182,6 +186,9 @@ flex-direction: column;
     justify-content: center;
 }
 @media (max-width: 1009px){
+    .fwbox>img {
+            width: 120px;
+        }
    #contaniner{
     display: flex;
     flex-direction: column;

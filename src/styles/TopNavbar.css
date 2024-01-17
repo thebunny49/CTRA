@@ -14,7 +14,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-   gap: 20px;
+   gap: 1vmax;
     flex-direction: row;
 }
 

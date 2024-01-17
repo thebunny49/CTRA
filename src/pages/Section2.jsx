@@ -27,7 +27,7 @@ function Section2() {
         }, [])
         return (
                 <>
-                        <div className="main2">
+                        <div id='section2' className="main2">
 
 
                                 <div className='sec2left' style={{ zIndex: 1 }} >
