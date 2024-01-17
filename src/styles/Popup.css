@@ -4,7 +4,7 @@
      
     min-height: 400px;
     width: 70vw;
-    background-color: rgb(54, 50, 50);
+    /* background-color: rgb(54, 50, 50); */
     /* padding: 0px 20px 20px 20px; */
      
 }
@@ -37,14 +37,18 @@
 }
 .maincontact {
     display: flex;
+    /* align-items: center; */
+    margin: 50px;
     min-height: 70vh;
 }
 
 .contact-left {
     position: relative;
-   background-image: url('../assets/mega.jpg');
+   background-image: url('../assets/mega.jpg'); 
    background-size: cover;
     width: 40%;
+    padding: 20px;
+    /* height: fit-content; */
     
 }
 #po-left-text {
@@ -59,7 +63,9 @@
 .contact-right {
     /* background-color: red; */
     /* height: 100px; */
+     /* height: 100%; */
     width: 60%;
+    /* height: 100%; */
 }
 
 
@@ -73,7 +79,7 @@ h1 {
 
 #contact-form {
     width: 100%;
-     
+     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
