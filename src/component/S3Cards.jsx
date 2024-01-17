@@ -3,7 +3,7 @@ import '../styles/S3Cards.css'
 import S3Logo from '../assets/cc.svg'
 import { Link } from 'react-router-dom'
 
-const S3Cards = ({ title, text ,refer }) => {
+const S3Cards = ({ title, text  }) => {
   return (
     <>
       <div class="parent">
@@ -42,7 +42,7 @@ const S3Cards = ({ title, text ,refer }) => {
                       </button>
                 </div> */}
             <div class="view-more">
-              <Link to={refer} class="view-more-button" style={{ color: 'white' }}>  View more</Link>
+              <button   class="view-more-button" style={{ color: 'white' }}>  View more</button>
               <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
             </div>
           </div>

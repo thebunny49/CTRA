@@ -34,9 +34,10 @@
 
 
 .fb{
-    background-image: url('../assets/facebook.png');
+    background-image: url('../assets/x.png');
  background-size: cover;
  cursor: pointer;
+ 
  background-color: #fff;
 
 }
