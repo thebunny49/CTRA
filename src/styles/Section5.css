@@ -50,6 +50,11 @@
     font-size: 100px;
     mix-blend-mode: multiply;
 }
+.s5data{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .s5left{
     
     padding: 40px;
@@ -62,7 +67,7 @@
 .s5para{
     font-size: 18px;
     width: 100%;
-    
+    margin-bottom: 10px;
 }
 .contentdiv{
     display: flex;

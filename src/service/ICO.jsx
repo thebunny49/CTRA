@@ -113,6 +113,7 @@ const ICO = () => {
            <div id="icoleft">
                 <p className='icohead'>{data.heading1}</p>
                 <p className='icopara'>{data.para1}</p>
+                <br />
                 <div className='icobutton'>
 <button className='dexbutton'>
 {data.button1}
@@ -138,6 +139,7 @@ const ICO = () => {
             <p className='icosmall'>{data.small2}</p>
                 <p className='icoheading'>{data.heading2}</p>
                 <p className='icoparagraph'>{data.paragraph2}</p>
+                <br />
                 <div className='icobutton'>
 <button className='dexbutton'>
 Talk to Expert
@@ -288,6 +290,7 @@ Talk to Expert
             <p className='icosmall'>{data.small4} </p>
                 <p className='icoheading'>{data.heading4}</p>
                 <p className='icoparagraph'>{data.paragraph4}</p>
+                <br />
                 <div className='icobutton'>
 <button className='dexbutton'>
 Talk to Expert

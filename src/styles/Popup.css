@@ -42,7 +42,8 @@
 
 .contact-left {
     position: relative;
-   
+   background-image: url('../assets/mega.jpg');
+   background-size: cover;
     width: 40%;
     
 }
@@ -50,6 +51,7 @@
     rotate: -90deg;
     top: 250px;
     left: -50px;
+    text-align: center;
     position: absolute;
     /* margin: -50px; */
 }

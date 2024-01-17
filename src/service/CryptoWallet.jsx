@@ -92,6 +92,7 @@ const CryptoWallet = () => {
                         <div id="cwleft">
                             <p className='cwhead'>{data.heading1}</p>
                             <p className='cwpara'>{data.para1}</p>
+                            <br />
                             <div className='cwbutton'>
                                 <button className='dexbutton'>
                                     {data.button1}
@@ -117,6 +118,7 @@ const CryptoWallet = () => {
                         <p className='cwsmall'>{data.small2}</p>
                         <p className='cwheading'>{data.heading2}</p>
                         <p className='cwparagraph'>{data.paragraph2}</p>
+                        <br />
                         <div className='cwbutton'>
                             <button className='dexbutton'>
                                 Talk to Expert

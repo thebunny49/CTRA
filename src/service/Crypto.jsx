@@ -85,6 +85,7 @@ const Crypto = () => {
            <div id="cryptoleft">
                 <p className='cryptohead'>{data.heading1}</p>
                 <p className='cryptopara'>{data.para1}</p>
+                <br />
                 <div className='cryptobutton'>
 <button className='dexbutton'>
 {data.button1}
@@ -112,6 +113,7 @@ const Crypto = () => {
             <p className='cryptosmall'>{data.small2}</p>
                 <p className='cryptoheading'>{data.heading2}</p>
                 <p className='cryptoparagraph'>{data.paragraph2}</p>
+                <br />
                 <div className='cryptobutton'>
 <button className='dexbutton'>
 Talk to Expert
@@ -200,6 +202,7 @@ Talk to Expert
             <p className='cryptosmall'>{data.small4} </p>
                 <p className='cryptoheading'>{data.heading4}</p>
                 <p className='cryptoparagraph'>{data.paragraph4}</p>
+                <br />
                 <div className='cryptobutton'>
 <button className='dexbutton'>
 Talk to Expert

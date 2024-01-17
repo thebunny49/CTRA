@@ -109,6 +109,7 @@ const NFTDev = () => {
                </div>
                <p className="nfthead">DEVELOPMENT</p>
                 <p className='nftpara'>{data.para1}</p>
+                <br />
                 <div className='nftbutton'>
 <button className='dexbutton' id='btn1'>
 {data.button1}
@@ -132,6 +133,7 @@ const NFTDev = () => {
             <p className='nftsmall'>{data.small2}</p>
                 <p className='nftheading'>{data.heading2}</p>
                 <p className='nftparagraph'>{data.paragraph2}</p>
+                <br />
                 <div className='nftbutton'>
 <button className='dexbutton'>
 Talk to Expert
@@ -221,6 +223,7 @@ Talk to Expert
             <p className='nftsmall'>{data.small4} </p>
                 <p className='nftheading'>{data.heading4}</p>
                 <p className='nftparagraph'>{data.paragraph4}</p>
+                <br />
                 <div className='nftbutton'>
 <button className='dexbutton'>
 Talk to Expert
