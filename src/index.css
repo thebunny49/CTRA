@@ -14,7 +14,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+ 
 @font-face {
   font-family: "TypoGraphica";
   src: local("TypoGraphica"),
@@ -51,3 +51,5 @@ body{
    url("./fonts/HelloPagon-Black.ttf") format("truetype");
   font-weight: bold;
  }
+
+ 

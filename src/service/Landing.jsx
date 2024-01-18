@@ -1,0 +1,91 @@
+
+import "../styles/Lnading.css"
+
+import wa from "../assets/whatsapp.png"
+import it from "../assets/ig.png"
+import tg from "../assets/tg.png"
+
+// import Logo from '../assets/cryptora.png'
+// import cwimg2 from '../assets/cryptowallet/cwimg2.png'
+
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
+const Landing = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_t0v8pce', 'template_g5zwo2h', form.current, 'CiV-Bx9xip5ib_tUA')
+            .then((result) => {
+                console.log(result.text);
+                console.log("massage send")
+                e.target.reset();
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+    return (
+        <>
+            {/* <nav style={{ backgroundColor: "black", margin:"20px 60px" }} className="">
+                <a className="navbar-brand" href="/">
+                    <img src={Logo} alt="" style={{ width: "150px", height: "40px" }} />
+                </a>
+            </nav> */}
+
+
+
+            <div className="maincontact">
+
+                <div className="contact-left">
+                    {/* <div className="contactbutton">
+                        <p>Contact Us</p>
+                    </div> */}
+                    <p className='detail-head' style={{ fontSize: 50 }}>Launch Your Own Token With Our Expert Support</p>
+                    <p className="mcpara" style={{ lineHeight: "25px", fontWeight: "500", fontSize: 20 }}>Embark on your token journey with our expert support. From conceptualization to execution, we guide you through the process, ensuring a successful token launch tailored to your needs. Launch confidently with our dedicated assistance.</p>
+                    <div className="socialm">
+                        <p className="socialhead">Follow us on Social Media</p>
+                        <div className=" d-flex gap-5 mt-3 si">
+                            <a href="https://bit.ly/3GnnFUJ">
+                                <img src={wa} style={{ padding: "3px", backgroundColor: "white", borderRadius: 100, width: 30, height: 30 }} alt="" />
+                            </a>
+                            <a href="https://www.instagram.com/Cryptoratech/">
+                                <img src={it} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                            </a>
+                            <a href="https://t.me/Cryptoracommunity">
+                                <img src={tg} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="contact-right">
+
+                    <form action=" " method="post" id='contact-form' ref={form} onSubmit={sendEmail}>
+                        <h1>Send Us a Message</h1>
+                        <div id="inputs">
+
+                            <input type="text" id="name" name="from_name" placeholder='Name' required />
+
+                            <input type="email" id="email" name="from_email" placeholder='Email' required />
+
+                            <input type="tel" id="phone" placeholder='Phone' name="from_phone" />
+
+                            {/* <input type="text" id="budget" placeholder='Budget' name="budget" /> */}
+                            <textarea id="message" name="message" rows="5" placeholder='Maggage' required></textarea>
+                        </div>
+
+
+                        <button type="submit">Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </>
+    )
+}
+
+export default Landing

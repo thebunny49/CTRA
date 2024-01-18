@@ -5,11 +5,126 @@
     gap: 35px;
     left: 10px;
     top:25%;
-        
+    z-index: 99;
     position:fixed;
 }
+.parnt{
+  position: fixed;
+  z-index: 99;
+  top: 30%;
+  left: 100%;
+}
+.prshare.blwhatsapp,
+.prshare.blwhatsapp h3,
+.prshare.blwhatsapp i {
+  color: #2CB742 !important;
+  top: 8px;
+  
+}
+.prshare.btwiter,
+.prshare.btwiter h3,
+.prshare.btwiter i {
+  color: black !important;
+  top: 8px;
+  
+}
+.prshare.btelegram,
+.prshare.btelegram h3,
+.prshare.btelegram i {
+  color: #0099DE !important;  
+  top: 8px;
+  
+}
+.prshare.binstagram,
+.prshare.binstagram h3,
+.prshare.binstagram i {
+  color: #f64747 !important;
+  top: 8px;
+  
+}
+.prshare {
+  display: block;
+  margin-top: 6px;
+  min-width: 150px;
+  width: 100%;
+  min-height: 40px;
+  background-color: #fff;
+  margin-left: -38px;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+  transition: ease-out 0.1s;
+  user-select: text;
+  color: #0099DE;
+  text-transform: none !important;
+}
+.prshare:hover {
+  transition: margin-left 0.3s;
+  margin-left: -100%;
+}
+.prshare .social_side_icons {
+  margin: 0 0 0 38px;
+  padding: 6px 0 0 0;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: none;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.prshare .social_side_content {
+  margin: 0 0 0 30px;
+  padding: 3px 8px 4px 8px;
+  color: #000017;
+  font-size: 12px;
+  line-height: 12px;
+  overflow: hidden;
+  user-select: text;
+  white-space: nowrap;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.prshare a,button {
+  display: block;
+  color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    cursor: pointer;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+}
+
+ .prshare.blwhatsapp i {
+   color: #2CB742 !important;
+   top: 8px;
+ }
+
+ .prshare i {
+   float: left;
+   position: relative;
+   top: 10px;
+   left: 10px;
+   font-size: 20px;
+ }
+
+ .fab,
+ .far {
+   font-weight: 400;
+ }
+
+ .fab {
+   font-family: "Font Awesome 5 Brands";
+ }
+ 
+ 
+
 .chatsupport{
-   
+  z-index: 99;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -25,7 +140,7 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-   
+   z-index: 99;
     bottom: 10px;
     left: 10px;
         
@@ -34,9 +149,10 @@
 
 
 .fb{
-    background-image: url('../assets/facebook.png');
+    background-image: url('../assets/x.png');
  background-size: cover;
  cursor: pointer;
+ 
  background-color: #fff;
 
 }

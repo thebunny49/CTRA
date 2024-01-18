@@ -60,10 +60,10 @@ const Footer = () => {
 									<div className="col-md-3 mb-md-0 mb-4 border-left">
 										<h2 className="footer-heading">About</h2>
 										<ul className="list-unstyled">
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Staff</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Team</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Careers</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Blog</a></li>
+											{/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Staff</a></li> */}
+											{/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Team</a></li> */}
+											{/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Careers</a></li> */}
+											{/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Blog</a></li> */}
 											<li><Link to="c-service" style={{ textDecoration: 'none' }} className="py-1 d-block">Services</Link></li>
 											<li><Link to="Aboutus" style={{ textDecoration: 'none' }} className="py-1 d-block">About Us</Link></li>
 											<li><Link to="/contact-us" style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>

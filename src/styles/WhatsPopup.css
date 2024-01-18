@@ -1,0 +1,70 @@
+#wa-popup::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #EFEBE4;
+    border-right: 10px solid transparent;
+    top: 349px;
+    left: 15px;
+}
+#wa-popup{
+    height: 350px;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+#wa-head{
+    height: 20%;
+    background-color: #4AA485;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px ;
+}
+#wa-body{
+    background-color: #EFEBE4;
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0px 0px 15px 15px;
+     
+}
+#wa-foot{
+    background-color: #EFEBE4;
+    
+}
+#wa-form{
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFEBE4;
+    border-radius: 0px 0px 15px 15px;
+}
+ 
+#wa-input::placeholder {
+    /* Set the desired font size */
+    font-size: 13px;
+    /* You can change the size to your preference */
+}
+#wa-input{
+    width: 80%;
+    background-color: white ;
+    border-radius: 100px;
+}
+#wa-button{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white ;
+    border-radius: 100%;
+}
+
+
+/* ///sjdfksdf */
+ 
+ 

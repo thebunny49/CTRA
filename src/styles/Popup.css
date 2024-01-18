@@ -4,7 +4,7 @@
      
     min-height: 400px;
     width: 70vw;
-    background-color: rgb(54, 50, 50);
+    /* background-color: rgb(54, 50, 50); */
     /* padding: 0px 20px 20px 20px; */
      
 }
@@ -37,14 +37,23 @@
 }
 .maincontact {
     display: flex;
+    /* align-items: center; */
+   background-repeat: no-repeat;
+  background-image: url("../assets/meta.png");
+   background-size: contain;
+  background-position: left;
+    margin: 50px;
     min-height: 70vh;
 }
 
 .contact-left {
     position: relative;
-   background-image: url('../assets/mega.jpg');
+   /* background-image: url('../assets/mega.jpg');  */
+   background-color: #00000084;
    background-size: cover;
     width: 40%;
+    padding: 20px;
+    /* height: fit-content; */
     
 }
 #po-left-text {
@@ -59,7 +68,9 @@
 .contact-right {
     /* background-color: red; */
     /* height: 100px; */
+     /* height: 100%; */
     width: 60%;
+    /* height: 100%; */
 }
 
 
@@ -73,7 +84,7 @@ h1 {
 
 #contact-form {
     width: 100%;
-     
+     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -184,6 +195,7 @@ form {
         /* align-items: center; */
         min-height: 100vh;
         gap: 40px;
+        margin: 20;
         /* width: 100vw; */
     }
 
@@ -194,6 +206,7 @@ form {
         justify-content: center;
         gap: 40px;
         width: 100%;
+        padding: 0px;
     }
          
     

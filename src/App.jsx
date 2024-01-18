@@ -7,6 +7,7 @@ import ContactUs from './pages/ContactUs';
 import Aboutus from './pages/Aboutus';
 import PopupX from './pages/PopupX';
 import PopupX2 from './pages/PopupX2';
+import Landing from './service/Landing';
 // import Services from './service/Services';
 
 // Lazy-loaded components
@@ -59,6 +60,7 @@ const App = () => {
             <Route path="Aboutus" element={<Aboutus/>}/>
             <Route path="PopupX" element={<PopupX/>}/>  
             <Route path="PopupX2" element={<PopupX2/>}/>  
+            <Route path="Landing" element={<Landing/>}/>  
           </Routes>
         </Suspense>
       </BrowserRouter>

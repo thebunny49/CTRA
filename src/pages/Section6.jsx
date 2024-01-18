@@ -28,6 +28,29 @@ import fwimg44 from "/Framework/lang4.png"
 import fwimg45 from "/Framework/lang5.png"
 import fwimg46 from "/Framework/lang6.png"
 
+import fwimg47 from "../assets/fm/47.webp"
+import fwimg48 from "../assets/fm/48.webp"
+import fwimg49 from "../assets/fm/49.webp"
+import fwimg51 from "../assets/fm/51.png"
+import fwimg52 from "../assets/fm/52.webp"
+import fwimg53 from "../assets/fm/53.webp"
+
+import fwimg71 from "../assets/fm/71.png"
+import fwimg72 from "../assets/fm/72.png"
+import fwimg73 from "../assets/fm/73.png"
+import fwimg74 from "../assets/fm/74.png"
+
+import fwimg81 from "../assets/fm/81.png"
+import fwimg82 from "../assets/fm/82.png"
+import fwimg83 from "../assets/fm/83.png"
+import fwimg84 from "../assets/fm/84.png"
+import fwimg85 from "../assets/fm/85.png"
+ 
+
+ 
+
+
+
 import pdf1 from "../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf"
 import pdf2 from "../assets/pdf/CRYPTORA  PRODUCT PROPOSAL 3.pdf"
 import pdf3 from "../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf"
@@ -69,8 +92,19 @@ const Section6 = () => {
                   onClick={() => handleSectionChange('project')} />
 
                 <label htmlFor="project-ch" style={{ background: activeSection === 'project' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Language</div></label>
+               
+                <input type="radio" name="tabs" id="DB-ch"
+                  onClick={() => handleSectionChange('DB')} />
+
+                <label htmlFor="DB-ch" style={{ background: activeSection === 'DB' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Database</div></label>
+               
+                <input type="radio" name="tabs" id="blockchain-ch"
+                  onClick={() => handleSectionChange('blockchain')} />
+
+                <label htmlFor="blockchain-ch" style={{ background: activeSection === 'blockchain' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Blockchain</div></label>
 
               </div>
+
               <div id="text">
 
                 <div id="home-txt" style={{ display: activeSection === 'home' ? 'block' : 'none' }}>
@@ -138,6 +172,34 @@ const Section6 = () => {
                       </div>
                       <div className="fwbox">
                         <img src={fwimg26} className='fwimg' alt="" />
+
+                      </div>
+                    </div>
+                    <div className='boxdetail'>
+                      <div className="fwbox">
+                        <img src={fwimg47} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg48} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg49} className='fwimg' alt="" />
+
+                      </div>
+                    </div>
+                    <div className='boxdetail'>
+                      <div className="fwbox">
+                        <img src={fwimg51} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg52} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg53} className='fwimg' alt="" />
 
                       </div>
                     </div>
@@ -216,6 +278,72 @@ const Section6 = () => {
                         <img src={fwimg46} className='fwimg' alt="" />
 
                       </div>
+                    </div>
+
+
+
+                  </div>
+                </div>
+
+                <div id="database-txt" style={{ display: activeSection === 'DB' ? 'block' : 'none' }}>
+
+                  <p className="txt-head">Database</p>
+                  <div className="fw">
+                    <div className='boxdetail'>
+                      <div className="fwbox">
+                        <img src={fwimg71} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg72} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg73} className='fwimg' alt="" />
+
+                      </div>
+                    </div>
+                    <div className='boxdetail'>
+                      <div className="fwbox">
+                        <img src={fwimg74} className='fwimg' alt="" />
+
+                      </div>
+                       
+                    </div>
+
+
+
+                  </div>
+                </div>
+
+                <div id="blockchain-txt" style={{ display: activeSection === 'blockchain' ? 'block' : 'none' }}>
+
+                  <p className="txt-head">Blockchain</p>
+                  <div className="fw">
+                    <div className='boxdetail'>
+                      <div className="fwbox">
+                        <img src={fwimg81} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg82} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg83} className='fwimg' alt="" />
+
+                      </div>
+                    </div>
+                    <div className='boxdetail'>
+                      <div className="fwbox">
+                        <img src={fwimg84} className='fwimg' alt="" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg85} className='fwimg' alt="" />
+
+                      </div>
+                       
                     </div>
 
 
