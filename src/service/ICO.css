@@ -158,7 +158,7 @@ line-height: 28.25px; /* 175% */
 .icobutton{
     display: flex;
     flex-direction: row;
-    gap:40px;
+    gap:3vmax;
     justify-content:flex-start;
     width: 100%;
    

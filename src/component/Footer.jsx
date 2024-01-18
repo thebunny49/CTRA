@@ -67,6 +67,7 @@ const Footer = () => {
 											<li><Link to="c-service" style={{ textDecoration: 'none' }} className="py-1 d-block">Services</Link></li>
 											<li><Link to="Aboutus" style={{ textDecoration: 'none' }} className="py-1 d-block">About Us</Link></li>
 											<li><Link to="/contact-us" style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>
+											<li><Link to="/Landing" style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>
 										</ul>
 									</div>
 									<div className="col-md-3 mb-md-0 mb-4 border-left">
