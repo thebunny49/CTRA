@@ -149,6 +149,7 @@ const CryptoWallet = () => {
                             
                         <div className="cwcontent">
                             
+                            <img src='/public/cryptowallet/cw1.png' style={{ width: 50, height: 50 }} />
                             <img src='/cryptowallet/cw1.png' style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading1}
                             </p><p className="para">{data.cardparagraph1}</p>
