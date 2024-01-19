@@ -90,7 +90,7 @@ const Blockchain = () => {
   return (
     <>
       <div id="blockchainbody">
-        <TopNavbar />
+        {/* <TopNavbar /> */}
 
         <div className='blockchainsec1main' >
           <video autoPlay loop controls playsInline muted className='blockchainvideo'>

@@ -76,7 +76,7 @@ const Crypto = () => {
   return (
     <>
       <div id="cryptobody">
-        <TopNavbar />
+        {/* <TopNavbar /> */}
 
         <div className='cryptosec1main' >
           <div className='overlay01'></div>

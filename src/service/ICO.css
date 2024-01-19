@@ -103,7 +103,7 @@ align-items: center;
 .icohead{
     font-size: 50px;
     color: white;
-    z-index: 1;
+    z-index: 0;
     font-weight: 800;
     font-family: 'Manrope', sans-serif;
   }
@@ -151,7 +151,7 @@ line-height: 28.25px; /* 175% */
 }
 .icopara{
     font-size: 18px;
-    z-index: 1;
+    z-index: 0;
     font-weight: 400;
     color:white;
 }
@@ -602,7 +602,7 @@ transform: scale(1.3);
 .nfthead{
     font-size: 50px;
     font-weight: 700;
-    z-index: 1;
+    z-index: 0;
     font-family: 'Manrope', sans-serif;}
 .nftheading{
     color: #ffffff;
@@ -649,7 +649,7 @@ line-height: 28.25px; /* 175% */
 .nftpara{
     font-size: 18px;
     font-weight: 400;
-    z-index: 1;
+    /* z-index: 0; */
 }
 .nftbutton{
     display: flex;

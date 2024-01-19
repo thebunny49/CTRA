@@ -5,6 +5,8 @@ import './Service.css'
 import './Staking.css'
 import Footer from '../component/Footer'
 import Waves from "../assets/staking.mp4"
+
+
 const StackingPlatform = () => {
 
   const data = {
@@ -67,7 +69,7 @@ const StackingPlatform = () => {
   return (
     <>
       <div id="stakingbody">
-        <TopNavbar />
+        {/* <TopNavbar /> */}
 
         <div className='stakingsec1main' >
           <video autoPlay muted className='stakingvideo'>
@@ -117,7 +119,7 @@ const StackingPlatform = () => {
           </div>
           <div id="stakingright">
             <div>
-              <img src="/public/Stacking/sp1.png" style={{ width: "100%", height: "100%" }} alt="" />
+              <img src="/Stacking/sp1.png" style={{ width: "100%", height: "100%" }} alt="" />
 
 
             </div>
@@ -132,7 +134,7 @@ const StackingPlatform = () => {
         <div id='stakingsec3'>
           <div class="stakingcard">
             <div class="stakingcontent">
-              <img src='/public/Stacking/sp1.png' style={{ width: 50, height: 50 }} />
+              <img src='/Stacking/sp1.png' style={{ width: 50, height: 50 }} />
               <p class="heading">{data.cardheading1}
               </p><p class="para">{data.cardparagraph1}</p>
 
@@ -140,7 +142,7 @@ const StackingPlatform = () => {
           </div>
           <div class="stakingcard">
             <div class="stakingcontent">
-              <img src='/public/Stacking/sp2.png' style={{ width: 50, height: 50 }} />
+              <img src='/Stacking/sp2.png' style={{ width: 50, height: 50 }} />
               <p class="heading">{data.cardheading2}
               </p><p class="para">
                 {data.cardparagraph2}       </p>
@@ -149,7 +151,7 @@ const StackingPlatform = () => {
           </div>
           <div class="stakingcard">
             <div class="stakingcontent">
-              <img src='/public/Stacking/sp3.png' style={{ width: 50, height: 50 }} />
+              <img src='/Stacking/sp3.png' style={{ width: 50, height: 50 }} />
               <p class="heading">{data.cardheading3}
               </p><p class="para">
                 {data.cardparagraph3}
@@ -159,7 +161,7 @@ const StackingPlatform = () => {
           </div>
           <div class="stakingcard">
             <div class="stakingcontent">
-              <img src='/public/Stacking/sp4.png' style={{ width: 50, height: 50 }} />
+              <img src='/Stacking/sp4.png' style={{ width: 50, height: 50 }} />
               <p class="heading">{data.cardheading4}
               </p><p class="para">
                 {data.cardparagraph4}
@@ -169,7 +171,7 @@ const StackingPlatform = () => {
           </div>
           <div class="stakingcard">
             <div class="stakingcontent">
-              <img src='/public/Stacking/sp5.png' style={{ width: 50, height: 50 }} />
+              <img src='/Stacking/sp5.png' style={{ width: 50, height: 50 }} />
               <p class="heading">{data.cardheading5}
               </p><p class="para">
                 {data.cardparagraph5}
@@ -179,7 +181,7 @@ const StackingPlatform = () => {
           </div>
           <div class="stakingcard">
             <div class="stakingcontent">
-              <img src='/public/Stacking/sp6.png' style={{ width: 50, height: 50 }} />
+              <img src='/Stacking/sp6.png' style={{ width: 50, height: 50 }} />
               <p class="heading">{data.cardheading6}
               </p><p class="para">
                 {data.cardparagraph6}
@@ -206,7 +208,7 @@ const StackingPlatform = () => {
           </div>
           <div id="stakingright">
             <div>
-              <img src="/public/Decentralized/deimg2.png" style={{ width: "100%", height: "100%" }} alt="" />
+              <img src="/Decentralized/deimg2.png" style={{ width: "100%", height: "100%" }} alt="" />
 
             </div>
           </div>
@@ -223,7 +225,7 @@ const StackingPlatform = () => {
           <section class="n5container">
             <div class="n5card">
               <div class="n5content">
-                <p class="n5logo"><img src="/public/Stacking/sp11.png" alt="" style={{ width: 50 }} /></p>
+                <p class="n5logo"><img src="/Stacking/sp11.png" alt="" style={{ width: 50 }} /></p>
                 <div class="n5h6">{data.title1}</div>
                 <div class="n5hover_content">
                   <p> {data.content1}</p>
@@ -234,7 +236,7 @@ const StackingPlatform = () => {
           <section class="n5container">
             <div class="n5card">
               <div class="n5content">
-                <p class="n5logo"><img src="/public/Stacking/sp12.png" alt="" style={{ width: 50 }} /></p>
+                <p class="n5logo"><img src="/Stacking/sp12.png" alt="" style={{ width: 50 }} /></p>
                 <div class="n5h6">{data.title2}</div>
                 <div class="n5hover_content">
                   <p>{data.content2}</p>
@@ -245,7 +247,7 @@ const StackingPlatform = () => {
           <section class="n5container">
             <div class="n5card">
               <div class="n5content">
-                <p class="n5logo"><img src="/public/Stacking/sp13.png" alt="" style={{ width: 50 }} /></p>
+                <p class="n5logo"><img src="/Stacking/sp13.png" alt="" style={{ width: 50 }} /></p>
                 <div class="n5h6">{data.title3}</div>
                 <div class="n5hover_content">
                   <p>{data.content3}</p>      </div>

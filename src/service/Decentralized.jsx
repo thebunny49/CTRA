@@ -68,7 +68,7 @@ const Decentralized = () => {
   return (
     <>
       <div id="DEbody">
-        <TopNavbar />
+        {/* <TopNavbar /> */}
 
         <div className='DEsec1main' >
           <video autoPlay playsInline muted className='DEvideo'>

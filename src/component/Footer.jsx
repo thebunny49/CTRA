@@ -2,6 +2,13 @@ import React from 'react'
 import '../styles/Footer.css'
 import Arrow from '../assets/arre.gif'
 import { Link } from 'react-router-dom'
+import Logo from "../assets/cryptora.png"
+
+import ws from "../assets/wa.png"
+import x from "../assets/x.png"
+import tg from "../assets/tg.png"
+import ig from "../assets/ig.png"
+
 const Footer = () => {
 	return (
 		<>
@@ -24,18 +31,16 @@ const Footer = () => {
 						</div>
 						<div className="row">
 							<div className="col-md-4 col-lg-5" >
-								<div className="row">
+								<div className="d-flex  gap-4 row">
 									<div className="col-md-12 col-lg-8 mb-md-0 mb-4">
-										<h2 className="footer-heading">Cryptora</h2>
-										<p>We provide crypto and blockchain development company with experience in NFT marketplace development, token development, crypto wallet development.</p>
+										<img style={{marginRight:"15px"}} className="  footer-heading" src={Logo} alt="" />
+										<p style={{ color:"rgb(204, 203, 203)"}} >We provide crypto and blockchain development company with experience in NFT marketplace development, token development, crypto wallet development.</p>
 
 									</div>
-									<div className="col-md-12 col-lg-8 mb-md-0 mb-4" style={{ display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }}>
+									<div className="d-flex  gap-2 col-md-12 col-lg-8 mb-md-0 mb-4" style={{ display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }}>
 
-
-
-
-										<a style={{ textAlign: 'left' }} ><p>Whatsapp & Call Number  (Worldwide 24*7)</p></a>
+ 
+										<a style={{ textAlign: 'left' }} ><p style={{ color: "rgb(204, 203, 203)" }}>Whatsapp & Call Number  (Worldwide 24*7)</p></a>
 										<a> + 91 8770632170</a>
 										<a>info@digitalonebox.com</a>
 									</div>
@@ -47,14 +52,14 @@ const Footer = () => {
 										<h2 className="footer-heading">Quick Links</h2>
 										<ul className="list-unstyled">
 
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Cryptocurrency Token Development</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">ICO Marketing</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">NFT Marketplace Development</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Decentralized Exchange</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Staking Platform DApp</a></li>
+											<li><Link to="/nft" style={{ textDecoration: 'none' }} className="py-1 d-block">NFT Marketplace Development</Link></li>
+											<li><Link to="/crypto" style={{ textDecoration: 'none' }} className="py-1 d-block">Cryptocurrency Token Development</Link></li>
+											<li><Link to="/decentralized" style={{ textDecoration: 'none' }} className="py-1 d-block">Decentralized Exchange</Link></li>
+											<li><Link to="/ico" style={{ textDecoration: 'none' }} className="py-1 d-block">ICO Marketing</Link></li>
+											{/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Staking Platform DApp</a></li>
 											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Multichain Crypto Wallet</a></li>
 											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Blockchain Consulting</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Decentralized Applications</a></li>
+											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Decentralized Applications</a></li> */}
 										</ul>
 									</div>
 									<div className="col-md-3 mb-md-0 mb-4 border-left">
@@ -64,10 +69,10 @@ const Footer = () => {
 											{/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Team</a></li> */}
 											{/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Careers</a></li> */}
 											{/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Blog</a></li> */}
-											<li><Link to="c-service" style={{ textDecoration: 'none' }} className="py-1 d-block">Services</Link></li>
-											<li><Link to="Aboutus" style={{ textDecoration: 'none' }} className="py-1 d-block">About Us</Link></li>
+											<li><Link to="/c-service" style={{ textDecoration: 'none' }} className="py-1 d-block">Services</Link></li>
+											<li><Link to="/Aboutus" style={{ textDecoration: 'none' }} className="py-1 d-block">About Us</Link></li>
 											<li><Link to="/contact-us" style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>
-											<li><Link to="/Landing" style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>
+											<li><Link to="/Landing" style={{ textDecoration: 'none' }} className="py-1 d-block">Landing</Link></li>
 										</ul>
 									</div>
 									<div className="col-md-3 mb-md-0 mb-4 border-left">
@@ -81,10 +86,10 @@ const Footer = () => {
 									<div className="col-md-3 mb-md-0 mb-4 border-left">
 										<h2 className="footer-heading">Social</h2>
 										<ul className="list-unstyled">
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Facebook</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Twitter</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Instagram</a></li>
-											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Googleplus</a></li>
+											<li><a href="https://bit.ly/3GnnFUJ" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{margin:"5px", height:"20px", width:"20px"}} src={ws} alt="" /> WhatsApp</a></li>
+											<li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcryptora_tech" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin:"5px", backgroundColor:"white", height:"20px", width:"20px"}} src={x} alt="" /> Twitter-X</a></li>
+											<li><a href="https://t.me/Cryptoracommunity" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{margin:"5px", height:"20px", width:"20px"}} src={ig} alt="" /> Instagram</a></li>
+											<li><a href="https://www.instagram.com/Cryptoratech/" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{margin:"5px", height:"20px", width:"20px"}} src={tg} alt="" /> Telegram</a></li>
 										</ul>
 									</div>
 								</div>

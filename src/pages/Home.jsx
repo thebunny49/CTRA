@@ -18,7 +18,8 @@ import Tooltip from 'react-bootstrap/Tooltip';
 const Home = () => {
   return (
     <>
-        <TopNavbar />
+      {/* <TopNavbar /> */}
+      
         {/* <div className='support'>
           <div className='fb'>
             <span className='socialpara'>FB</span>

@@ -100,7 +100,7 @@ const ICO = () => {
   }
   return (
     <>
-        <TopNavbar />
+        {/* <TopNavbar /> */}
       <div id="icobody">
 
         <div className='icosec1main' >

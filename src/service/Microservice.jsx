@@ -1,11 +1,11 @@
 
 import { useState } from 'react';
 
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+// import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import chat from '../assets/chat.gif'
 import whatsapp from '../assets/logo/wa-logo-chat.webp'
-import Tooltip from 'react-bootstrap/Tooltip';
-import PopupX2 from '../pages/PopupX2'
+// import Tooltip from 'react-bootstrap/Tooltip';
+// import PopupX2 from '../pages/PopupX2'
 import WhatsPopup from '../pages/WhatsPopup';
 
 
@@ -93,7 +93,7 @@ const Microservice = () => {
         </div>
       </div>
       <div className="chatsupport2" >
-        <div style={{ display: popup === 'true' ? 'block' : 'none' }} >
+        <div style={{ display: popup === 'false' ? 'block' : 'none'    }} >
           <WhatsPopup />
         </div>
         <div onClick={() => { handlepopup(popup) }} className="chat" style={{ width: 50, height: 50, overflow: "hidden", borderRadius: "150px", backgroundColor: "#49E670", display: "flex", justifyContent: "center", alignItems: 'center' }}>

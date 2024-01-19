@@ -8,7 +8,7 @@ import conbg from "/src/assets/contact-bg.jpg"
 const ContactUs = () => {
   return (
     <>
-      <TopNavbar />
+      {/* <TopNavbar /> */}
       <img src={conbg} id='conbg' alt="" />
       <div className="contactmain container">
         <div className="contactsec1">

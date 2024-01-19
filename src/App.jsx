@@ -8,6 +8,8 @@ import Aboutus from './pages/Aboutus';
 import PopupX from './pages/PopupX';
 import PopupX2 from './pages/PopupX2';
 import Landing from './service/Landing';
+import TopNavbar from './component/TopNavbar';
+import Headroom from 'react-headroom';
 // import Services from './service/Services';
 
 // Lazy-loaded components
@@ -25,8 +27,8 @@ const StackingPlatform = lazy(() => import('./service/StackingPlatform'));
 // Loading spinner component
 const Loader = () => (
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-   <div className="loader">
-</div>
+    <div className="loader">
+    </div>
   </div>
 );
 const App = () => {
@@ -42,9 +44,15 @@ const App = () => {
   }, []);
   return (
     <>
-     <Microservice />
+
+
+      <Microservice />
       <BrowserRouter>
+        <Headroom>
+        <TopNavbar />
+        </Headroom>
         <Suspense fallback={isLoading ? <Loader /> : null}>
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="services" element={<Services />} />
@@ -57,10 +65,10 @@ const App = () => {
             <Route path="stacking" element={<StackingPlatform />} />
             <Route path="contact-us" element={<ContactUs />} />
             <Route path="c-service" element={<Service />} />
-            <Route path="Aboutus" element={<Aboutus/>}/>
-            <Route path="PopupX" element={<PopupX/>}/>  
-            <Route path="PopupX2" element={<PopupX2/>}/>  
-            <Route path="Landing" element={<Landing/>}/>  
+            <Route path="Aboutus" element={<Aboutus />} />
+            <Route path="PopupX" element={<PopupX />} />
+            <Route path="PopupX2" element={<PopupX2 />} />
+            <Route path="Landing" element={<Landing />} />
           </Routes>
         </Suspense>
       </BrowserRouter>

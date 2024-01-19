@@ -87,7 +87,7 @@ const NFTDev = () => {
   return (
     <>
       <div id="nftbody">
-        <TopNavbar />
+        {/* <TopNavbar /> */}
         {/* nftsec1 */}
         <div className='icosec1main' >
 
