@@ -5,6 +5,9 @@ import './Service.css'
 import './CryptoWallet.css'
 import Footer from '../component/Footer'
 import Waves from '../../public/Decentralized/dex_3.mp4'
+
+import cw1 from "../../public/cryptowallet/cw1.png"
+
 const CryptoWallet = () => {
 
     const data = {
@@ -149,7 +152,7 @@ const CryptoWallet = () => {
                             
                         <div className="cwcontent">
                             
-                            <img src='/public/cryptowallet/cw1.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw1} style={{ width: 50, height: 50 }} />
                             <img src='/cryptowallet/cw1.png' style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading1}
                             </p><p className="para">{data.cardparagraph1}</p>
