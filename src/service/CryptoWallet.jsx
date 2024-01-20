@@ -1,6 +1,6 @@
  
 import './Service.css'
-import '.../../public/CryptoWallet.css'
+import './CryptoWallet.css'
 import Footer from '../component/Footer'
 
 
