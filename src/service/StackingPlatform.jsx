@@ -1,6 +1,4 @@
 
-import React from 'react'
-import TopNavbar from '../component/TopNavbar'
 import './Service.css'
 import './Staking.css'
 import Footer from '../component/Footer'
