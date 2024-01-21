@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import S3Cards from '../component/S3Cards'
 import '../styles/Section3.css'
 import { Link } from 'react-router-dom'

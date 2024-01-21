@@ -1,8 +1,9 @@
 import Footer from "../component/Footer"
-import TopNavbar from "../component/TopNavbar"
+ 
 import "../styles/Aboutus.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "@itseasy21/react-elastic-carousel";
+
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
@@ -59,7 +60,7 @@ const Aboutus = () => {
                 <div id='ABTsec3' className="container">
                     <div id="ABTright3">
                         <div className='ABTright3'>
-                            <img src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="" />
+                            <img id="ABTgif" src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="" />
 
 
 

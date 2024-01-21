@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../styles/Section2.css'
-import Waves from '../assets/waves.mp4'
+// import Waves from '../assets/waves.mp4'
 import AOS from 'aos';
 import Image1 from '../assets/index2.mp4'
 import Bullet from '../assets/bullet.svg'

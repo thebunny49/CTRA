@@ -1,6 +1,6 @@
 // import React from 'react'
 import '../styles/ContactUs.css'
-import TopNavbar from '../component/TopNavbar'
+
 import cuimg from "/asset.svg"
 import conbg from "/src/assets/contact-bg.jpg"
 

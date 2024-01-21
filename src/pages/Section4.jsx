@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import '../styles/Section4.css'
 import NFTG from '../assets/nftg.png'
 

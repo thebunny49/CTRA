@@ -1,7 +1,4 @@
 #po-main{
-     
-   
-     
     min-height: 400px;
     width: 70vw;
     /* background-color: rgb(54, 50, 50); */
@@ -39,7 +36,7 @@
     display: flex;
     /* align-items: center; */
    background-repeat: no-repeat;
-  background-image: url("../assets/meta.png");
+  background-image: url("../assets/mega.jpg");
    background-size: contain;
   background-position: left;
     margin: 50px;

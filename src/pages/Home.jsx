@@ -1,5 +1,5 @@
-import React from 'react'
-import TopNavbar from '../component/TopNavbar'
+// import React from 'react'
+// import TopNavbar from '../component/TopNavbar'
 import Section1 from './Section1'
 import Section2 from './Section2'
 import Section3 from './Section3'
@@ -10,11 +10,11 @@ import Section7 from './Section7'
 import Section8 from './Section8'
 import Section9 from './Section9'
 import Footer from '../component/Footer'
-import chat from '../assets/chat.gif'
+// import chat from '../assets/chat.gif'
 import '../styles/Home.css'
-import Button from 'react-bootstrap/Button';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
+// import Button from 'react-bootstrap/Button';
+// import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+// import Tooltip from 'react-bootstrap/Tooltip';
 const Home = () => {
   return (
     <>

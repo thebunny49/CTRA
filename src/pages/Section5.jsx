@@ -1,10 +1,10 @@
-import React from 'react'
+// import React from 'react'
 import '../styles/Section5.css'
 import TD from '../assets/td.jpg'
 import NFTD from '../assets/nfttab.png'
 import ICO from '../assets/ICO.png'
 import WALLET from '../assets/wallet.jpg'
-import Arrow from '../assets/narrow.svg'
+// import Arrow from '../assets/narrow.svg'
 import META from '../assets/meta.png'
 import Point from '../assets/bullet.svg'
 
@@ -22,7 +22,7 @@ const Section5 = () => {
   <div className="s5data">
   <p className='s5heading'><span style={{color:'#f88410', stroke:'white',WebkitTextStroke:"1.5px white"}}>TOKEN</span> DEVELOPMENT</p>
   
-    <p className='s5para'>Cryptora's real-world expertise allows us to provide our clients with comprehensive token production tools across industry hosts. Here are the features of Token Development Services.</p>
+    <p className='s5para'>{"Cryptora's"} real-world expertise allows us to provide our clients with comprehensive token production tools across industry hosts. Here are the features of Token Development Services.</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Etherem Token</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Tron Token</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Solana Token</p>
@@ -50,7 +50,7 @@ const Section5 = () => {
 <div className="s5left">
   <div className="s5data">
   <p className='s5heading'><span style={{color:'#f88410', stroke:'white',WebkitTextStroke:"1.5px white", strokeWidth:1}}>NFT</span> MARKETPLACE</p>
-    <p className='s5para'>Cryptora's real-world expertise allows us to provide our clients with comprehensive token production tools across industry hosts. Here are the features of Token Development Services.</p>
+    <p className='s5para'>{"Cryptora's"} real-world expertise allows us to provide our clients with comprehensive token production tools across industry hosts. Here are the features of Token Development Services.</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  NFT Smart Contract</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  NFT Marketplace Support</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  NFT Development</p>
@@ -108,7 +108,7 @@ const Section5 = () => {
 <div className="s5left">
   <div className="s5data">
   <p className='s5heading'><span style={{color:'#f88410', stroke:'white',WebkitTextStroke:"1.5px white"}}>METAVERSE</span>  DEVELOPMENT</p>
-    <p className='s5para'>Cryptora's real-world expertise allows us to provide our clients with comprehensive token production tools across industry hosts. Here are the features of Token Development Services.</p>
+    <p className='s5para'>{"Cryptora's"} real-world expertise allows us to provide our clients with comprehensive token production tools across industry hosts. Here are the features of Token Development Services.</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Etherem Token</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Tron Token</p>
   <p className='s5para'><img src={Point} alt="" style={{width:15, height:15, color:'white', marginRight:5,}} />  Solana Token</p>

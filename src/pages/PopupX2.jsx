@@ -1,5 +1,5 @@
 
-import "../styles/Popup.css"
+import "../styles/PopupX2.css"
 // import fb from "../assets/logo/pho1.svg"
 
 
@@ -82,7 +82,7 @@ const popup = () => {
                                 <option value="Congo, the Democratic Republic of the" id="CD">Congo, the Democratic Republic of the</option>
                                 <option value="Cook Islands" id="CK">Cook Islands</option>
                                 <option value="Costa Rica" id="CR">Costa Rica</option>
-                                <option value="Cote D'Ivoire" id="CI">Cote D'Ivoire</option>
+                                <option value="Cote D'Ivoire" id="CI">Cote {"D'Ivoire"}</option>
                                 <option value="Croatia" id="HR">Croatia</option>
                                 <option value="Cuba" id="CU">Cuba</option>
                                 <option value="Cyprus" id="CY">Cyprus</option>
@@ -145,7 +145,7 @@ const popup = () => {
                                 <option value="South Korea" id="KR">South Korea</option>
                                 <option value="Kuwait" id="KW">Kuwait</option>
                                 <option value="Kyrgyzstan" id="KG">Kyrgyzstan</option>
-                                <option value="Lao People's Democratic Republic" id="LA">Lao People's Democratic Republic</option>
+                                <option value="Lao People's Democratic Republic" id="LA">Lao {"People's"} Democratic Republic</option>
                                 <option value="Latvia" id="LV">Latvia</option>
                                 <option value="Lebanon" id="LB">Lebanon</option>
                                 <option value="Lesotho" id="LS">Lesotho</option>

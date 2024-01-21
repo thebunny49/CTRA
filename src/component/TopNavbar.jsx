@@ -296,9 +296,8 @@ const TopNavbar = () => {
                 <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent">
-                      <a href="/contact-us">Contact-Us</a>
-                      <a href="/Aboutus">About Us</a>
-
+                      <Link to="/contact-us">Contact-Us</Link>
+                      <Link to="/Aboutus">About Us</Link>
                     </div>
                   </div>
                 </div>
