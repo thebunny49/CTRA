@@ -105,12 +105,12 @@ const Blockchain = () => {
               <p className='blockchainpara'>{data.para1}</p>
               <br />
               <div className='blockchainbutton'>
-                <button className='dexbutton'>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button1}
-                </button>
-                <button className='dexbutton'>
+                </a>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button2}
-                </button>
+                </a>
 
               </div>
             </div>
@@ -132,9 +132,9 @@ const Blockchain = () => {
             <p className='blockchainparagraph'>{data.paragraph2}</p>
             <br />
             <div className='blockchainbutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -156,28 +156,28 @@ const Blockchain = () => {
             {data.paragraph3}</p>
         </div>
         <div id='blockchainsec3'>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc1.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading1}
-              </p><p class="para">{data.cardparagraph1}</p>
+              <p className="heading">{data.cardheading1}
+              </p><p className="para">{data.cardparagraph1}</p>
 
             </div>
           </div>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc2.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading2}
-              </p><p class="para">
+              <p className="heading">{data.cardheading2}
+              </p><p className="para">
                 {data.cardparagraph2}       </p>
 
             </div>
           </div>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc3.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading3}
-              </p><p class="para">
+              <p className="heading">{data.cardheading3}
+              </p><p className="para">
                 {data.cardparagraph3}
               </p>
 
@@ -195,58 +195,58 @@ const Blockchain = () => {
             {data.extraparagraph3}</p>
         </div>
         <div id='blockchainsec3'>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc11.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.extracardheading1}
-              </p><p class="para">{data.extracardparagraph1}</p>
+              <p className="heading">{data.extracardheading1}
+              </p><p className="para">{data.extracardparagraph1}</p>
 
             </div>
           </div>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc12.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.extracardheading2}
-              </p><p class="para">
+              <p className="heading">{data.extracardheading2}
+              </p><p className="para">
                 {data.extracardparagraph2}       </p>
 
             </div>
           </div>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc13.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.extracardheading3}
-              </p><p class="para">
+              <p className="heading">{data.extracardheading3}
+              </p><p className="para">
                 {data.extracardparagraph3}
               </p>
 
             </div>
           </div>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc14.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.extracardheading4}
-              </p><p class="para">
+              <p className="heading">{data.extracardheading4}
+              </p><p className="para">
                 {data.extracardparagraph4}
               </p>
 
             </div>
           </div>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc15.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.extracardheading5}
-              </p><p class="para">
+              <p className="heading">{data.extracardheading5}
+              </p><p className="para">
                 {data.extracardparagraph5}
               </p>
 
             </div>
           </div>
-          <div class="blockchaincard">
-            <div class="blockchaincontent">
+          <div className="blockchaincard">
+            <div className="blockchaincontent">
               <img src='/Blockchain/bc16.jpg' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.extracardheading6}
-              </p><p class="para">
+              <p className="heading">{data.extracardheading6}
+              </p><p className="para">
                 {data.extracardparagraph6}
               </p>
 
@@ -286,66 +286,66 @@ const Blockchain = () => {
           </p>
         </div>
         <div id='blockchainsec5' className="container">
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Blockchain/bc21.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title1}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Blockchain/bc21.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title1}</div>
+                <div className="n5hover_content">
                   <p> {data.content1}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Blockchain/bc22.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title2}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Blockchain/bc22.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title2}</div>
+                <div className="n5hover_content">
                   <p>{data.content2}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Blockchain/bc23.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title3}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Blockchain/bc23.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title3}</div>
+                <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Blockchain/bc24.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title4}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Blockchain/bc24.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title4}</div>
+                <div className="n5hover_content">
                   <p>{data.content4}</p>      </div>
               </div>
             </div>
           </section>
 
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Blockchain/bc25.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title5}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Blockchain/bc25.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title5}</div>
+                <div className="n5hover_content">
                   <p>{data.content5}</p>      </div>
               </div>
             </div>
           </section>
 
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Blockchain/bc26.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title6}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Blockchain/bc26.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title6}</div>
+                <div className="n5hover_content">
                   <p>{data.content6}</p>      </div>
               </div>
             </div>

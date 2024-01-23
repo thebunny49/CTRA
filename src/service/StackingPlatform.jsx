@@ -82,12 +82,12 @@ const StackingPlatform = () => {
               <p className='stakingpara'>{data.para1}</p>
               <br />
               <div className='stakingbutton'>
-                <button className='dexbutton'>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button1}
-                </button>
-                <button className='dexbutton'>
+                </a>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button2}
-                </button>
+                </a>
 
               </div>
             </div>
@@ -108,9 +108,9 @@ const StackingPlatform = () => {
             <p className='stakingparagraph'>{data.paragraph2}</p>
             <br />
             <div className='stakingbutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -197,9 +197,9 @@ const StackingPlatform = () => {
             <p className='stakingparagraph'>{data.paragraph4}</p>
             <br />
             <div className='stakingbutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>

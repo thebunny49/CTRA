@@ -20,10 +20,10 @@ const Footer = () => {
 								<div className="subscribe mb-5">
 									<form action="#" className="subscribe-form" >
 										<div className="form-group d-flex" style={{ flexDirection: 'row', }}>
-											<input type="text" className="form-control rounded-left" placeholder="Enter email address" style={{ paddingLeft: 30 }} />
-											<button className='s4button' style={{ color: 'black', fontWeight: 800, borderRadius: 50, width: "60%", fontSize: 12 }}>
+											{/* <input type="text" className="form-control rounded-left" placeholder="Enter email address" style={{ paddingLeft: 30 }} /> */}
+											<Link to='/contact-us' className=' d-flex justify-content-center  align-items-center s4button' style={{ textDecoration:"none",color: 'black', fontWeight: 800, borderRadius: 50, width: "100%", fontSize: 12 }}>
 												Contact Now <img src={Arrow} alt="" className='arrow' style={{ width: 25, height: 25 }} />
-											</button>
+											</Link>
 										</div>
 									</form>
 								</div>
@@ -78,7 +78,7 @@ const Footer = () => {
 									<div className="col-md-3 mb-md-0 mb-4 border-left">
 										<h2 className="footer-heading">Privacy</h2>
 										<ul className="list-unstyled">
-											<li><Link to="/TermCondition" style={{ textDecoration: 'none' }} className="py-1 d-block">Terms and condition & Privacy Policy</Link></li>
+											<li><Link   to="/TermCondition" style={{ textDecoration: 'none' }} className="py-1 d-block">Terms and condition</Link></li>
 											{/* <li><a target='blank' href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Privacy Policy</a></li> */}
 
 										</ul>

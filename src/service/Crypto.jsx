@@ -92,12 +92,12 @@ const Crypto = () => {
               <p className='cryptopara'>{data.para1}</p>
               <br />
               <div className='cryptobutton'>
-                <button className='dexbutton'>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{textDecoration:"none"}}  className='dexbutton'>
                   {data.button1}
-                </button>
-                <button className='dexbutton'>
+                </a>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button2}
-                </button>
+                </a>
 
               </div>
             </div>
@@ -120,9 +120,9 @@ const Crypto = () => {
             <p className='cryptoparagraph'>{data.paragraph2}</p>
             <br />
             <div className='cryptobutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -209,9 +209,9 @@ const Crypto = () => {
             <p className='cryptoparagraph'>{data.paragraph4}</p>
             <br />
             <div className='cryptobutton'>
-              <button className='dexbutton'>
+              <a href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>

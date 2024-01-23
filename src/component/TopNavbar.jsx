@@ -165,9 +165,9 @@ const TopNavbar = () => {
                   <div className="navdiv">
                     <div className="navcontent">
                       <a href="#">Smart Contract Development</a>
-                      <a href="#">Tokent/Coin development</a>
-                      <a href="#">white Paper Design</a>
-                      <a href="#">Tokenomices Design</a>
+                      <a href="#">Token/Coin development</a>
+                      <a href="#">White Paper Design</a>
+                      <a href="#">Tokenomics Design</a>
                       <a href="#">Custom Smart Contract</a>
                       <a href="#">Meme Token Development</a>
                       <a href="#">Stable Coin Development</a>

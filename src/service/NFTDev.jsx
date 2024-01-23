@@ -111,12 +111,12 @@ const NFTDev = () => {
               <p className='nftpara'>{data.para1}</p>
               <br />
               <div className='nftbutton'>
-                <button className='dexbutton' id='btn1'>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton' id='btn1'>
                   {data.button1}
-                </button>
-                <button className='dexbutton' id='btn1'>
+                </a>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton' id='btn1'>
                   {data.button2}
-                </button>
+                </a>
 
               </div>
             </div>
@@ -135,9 +135,9 @@ const NFTDev = () => {
             <p className='nftparagraph'>{data.paragraph2}</p>
             <br />
             <div className='nftbutton'>
-              <button className='dexbutton'>
+              <a href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -155,59 +155,59 @@ const NFTDev = () => {
             {data.paragraph3}</p>
         </div>
         <div id='nftsec3'>
-          <div class="nftcard">
-            <div class="nftcontent">
+          <div className="nftcard">
+            <div className="nftcontent">
               <img src='/NFTDev/nftc1.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading1}
-              </p><p class="para">{data.cardparagraph1}</p>
+              <p className="heading">{data.cardheading1}
+              </p><p className="para">{data.cardparagraph1}</p>
 
             </div>
           </div>
-          <div class="nftcard">
-            <div class="nftcontent">
+          <div className="nftcard">
+            <div className="nftcontent">
               <img src='/NFTDev/nftc2.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading2}
-              </p><p class="para">
+              <p className="heading">{data.cardheading2}
+              </p><p className="para">
                 {data.cardparagraph2}       </p>
 
             </div>
           </div>
-          <div class="nftcard">
-            <div class="nftcontent">
+          <div className="nftcard">
+            <div className="nftcontent">
               <img src='/NFTDev/nftc5.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading5}
-              </p><p class="para">
+              <p className="heading">{data.cardheading5}
+              </p><p className="para">
                 {data.cardparagraph5}
               </p>
 
             </div>
           </div>
 
-          <div class="nftcard">
-            <div class="nftcontent">
+          <div className="nftcard">
+            <div className="nftcontent">
               <img src='/NFTDev/nftc4.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading4}
-              </p><p class="para">
+              <p className="heading">{data.cardheading4}
+              </p><p className="para">
                 {data.cardparagraph4}
               </p>
 
             </div>
           </div>
-          <div class="nftcard">
-            <div class="nftcontent">
+          <div className="nftcard">
+            <div className="nftcontent">
               <img src='/NFTDev/nftc3.png' style={{ width: 40, height: 40 }} />
-              <p class="heading">{data.cardheading3}
-              </p><p class="para">
+              <p className="heading">{data.cardheading3}
+              </p><p className="para">
                 {data.cardparagraph3}
               </p>
 
             </div>
           </div>
-          <div class="nftcard">
-            <div class="nftcontent">
+          <div className="nftcard">
+            <div className="nftcontent">
               <img src='/NFTDev/nftc6.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading6}
-              </p><p class="para">
+              <p className="heading">{data.cardheading6}
+              </p><p className="para">
                 {data.cardparagraph6}
               </p>
 
@@ -225,9 +225,9 @@ const NFTDev = () => {
             <p className='nftparagraph'>{data.paragraph4}</p>
             <br />
             <div className='nftbutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -251,125 +251,125 @@ const NFTDev = () => {
 
 
         <div id='nftsec5' className="container">
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/ne.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title1}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/ne.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title1}</div>
+                <div className="n5hover_content">
                   <p> {data.content1}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s52.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title2}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s52.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title2}</div>
+                <div className="n5hover_content">
                   <p>{data.content2}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s53.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title3}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s53.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title3}</div>
+                <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
               </div>
             </div>
           </section>
 
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s54.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title4}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s54.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title4}</div>
+                <div className="n5hover_content">
                   <p>{data.content4}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s55.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title5} </div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s55.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title5} </div>
+                <div className="n5hover_content">
                   <p>{data.content5}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s56.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title6}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s56.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title6}</div>
+                <div className="n5hover_content">
                   <p>{data.content6}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s57.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title7}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s57.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title7}</div>
+                <div className="n5hover_content">
                   <p>{data.content7}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s58.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title8}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s58.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title8}</div>
+                <div className="n5hover_content">
                   <p>{data.content8}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s59.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title9}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s59.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title9}</div>
+                <div className="n5hover_content">
                   <p>{data.content9}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s510.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title10}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s510.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title10}</div>
+                <div className="n5hover_content">
                   <p>{data.content10}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s511.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title11}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s511.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title11}</div>
+                <div className="n5hover_content">
                   <p>{data.content11}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/NFTDev/s512.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title12}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/NFTDev/s512.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title12}</div>
+                <div className="n5hover_content">
                   <p>{data.content12}</p>      </div>
               </div>
             </div>

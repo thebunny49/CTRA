@@ -105,12 +105,12 @@ const CryptoWallet = () => {
                             <p className='cwpara'>{data.para1}</p>
                             <br />
                             <div className='cwbutton'>
-                                <button className='dexbutton'>
+                                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                     {data.button1}
-                                </button>
-                                <button className='dexbutton'>
+                                </a>
+                                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                     {data.button2}
-                                </button>
+                                </a>
 
                             </div>
                         </div>
@@ -131,9 +131,9 @@ const CryptoWallet = () => {
                         <p className='cwparagraph'>{data.paragraph2}</p>
                         <br />
                         <div className='cwbutton'>
-                            <button className='dexbutton'>
+                            <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Talk to Expert
-                            </button>
+                            </a>
 
 
                         </div>

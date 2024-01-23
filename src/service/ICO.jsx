@@ -115,12 +115,12 @@ const ICO = () => {
               <p className='icopara'>{data.para1}</p>
               <br />
               <div className='icobutton'>
-                <button className='dexbutton'>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button1}
-                </button>
-                <button className='dexbutton'>
+                </a>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button2}
-                </button>
+                </a>
 
               </div>
             </div>
@@ -141,9 +141,9 @@ const ICO = () => {
             <p className='icoparagraph'>{data.paragraph2}</p>
             <br />
             <div className='icobutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -163,120 +163,120 @@ const ICO = () => {
             {data.paragraph3}</p>
         </div>
         <div id='icosec3'>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc1.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading1}
-              </p><p class="para">{data.cardparagraph1}</p>
+              <p className="heading">{data.cardheading1}
+              </p><p className="para">{data.cardparagraph1}</p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc2.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading2}
-              </p><p class="para">
+              <p className="heading">{data.cardheading2}
+              </p><p className="para">
                 {data.cardparagraph2}       </p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc3.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading3}
-              </p><p class="para">
+              <p className="heading">{data.cardheading3}
+              </p><p className="para">
                 {data.cardparagraph3}
               </p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc4.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading4}
-              </p><p class="para">
+              <p className="heading">{data.cardheading4}
+              </p><p className="para">
                 {data.cardparagraph4}
               </p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc9.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading9}
-              </p><p class="para">
+              <p className="heading">{data.cardheading9}
+              </p><p className="para">
                 {data.cardparagraph9}
               </p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc11.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading11}
-              </p><p class="para">
+              <p className="heading">{data.cardheading11}
+              </p><p className="para">
                 {data.cardparagraph11}
               </p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc5.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading5}
-              </p><p class="para">
+              <p className="heading">{data.cardheading5}
+              </p><p className="para">
                 {data.cardparagraph5}
               </p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc6.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading6}
-              </p><p class="para">
+              <p className="heading">{data.cardheading6}
+              </p><p className="para">
                 {data.cardparagraph6}
               </p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc7.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading7}
-              </p><p class="para">
+              <p className="heading">{data.cardheading7}
+              </p><p className="para">
                 {data.cardparagraph7}
               </p>
 
             </div>
           </div>
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc8.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading8}
-              </p><p class="para">
+              <p className="heading">{data.cardheading8}
+              </p><p className="para">
                 {data.cardparagraph8}
               </p>
 
             </div>
           </div>
 
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc10.webp' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading10}
-              </p><p class="para">
+              <p className="heading">{data.cardheading10}
+              </p><p className="para">
                 {data.cardparagraph10}
               </p>
 
             </div>
           </div>
 
-          <div class="icocard">
-            <div class="icocontent">
+          <div className="icocard">
+            <div className="icocontent">
               <img src='/ICO/icoc12.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading12}
-              </p><p class="para">
+              <p className="heading">{data.cardheading12}
+              </p><p className="para">
                 {data.cardparagraph12}
               </p>
 
@@ -292,9 +292,9 @@ const ICO = () => {
             <p className='icoparagraph'>{data.paragraph4}</p>
             <br />
             <div className='icobutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -315,66 +315,66 @@ const ICO = () => {
           </p>
         </div>
         <div id='icosec5' className="container">
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/ICO/icop1.webp" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title1}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/ICO/icop1.webp" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title1}</div>
+                <div className="n5hover_content">
                   <p> {data.content1}</p>
                 </div>
               </div>
             </div>
           </section>
 
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/ICO/icop2.webp" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title3}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/ICO/icop2.webp" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title3}</div>
+                <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
               </div>
             </div>
           </section>
 
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/ICO/icop3.webp" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title4}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/ICO/icop3.webp" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title4}</div>
+                <div className="n5hover_content">
                   <p>{data.content4}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/ICO/icop4.webp" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title5} </div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/ICO/icop4.webp" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title5} </div>
+                <div className="n5hover_content">
                   <p>{data.content5}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/ICO/icop5.webp" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title2}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/ICO/icop5.webp" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title2}</div>
+                <div className="n5hover_content">
                   <p>{data.content2}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/ICO/icop6.webp" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title6}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/ICO/icop6.webp" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title6}</div>
+                <div className="n5hover_content">
                   <p>{data.content6}</p>      </div>
               </div>
             </div>

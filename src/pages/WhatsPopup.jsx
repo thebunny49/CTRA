@@ -2,10 +2,26 @@
 import whatsapp from '../assets/logo/wa-logo-chat.webp'
 import whatsappsend from '../assets/logo/send-button_icon-icons.com_72565.png'
 import '../styles/WhatsPopup.css'
+// import Motion from "@emotion/react"
+import { motion } from "framer-motion"
+
 const WhatsPopup = () => {
+    const fadeInUp = {
+        initial: { opacity: 0, y: 50 },
+        animate: { opacity: 1, y: 0 },
+    };
+
+    const fadeDown = {
+        initial: { opacity: 0, y: -50 },
+        animate: { opacity: 1, y: 0 },
+    };
     return (
         <>
-            <div id="wa-popup">
+            <motion.div
+                initial={fadeInUp.initial}
+                whileInView={fadeInUp.animate}
+                transition={{ duration: 0.5 }}
+                id="wa-popup">
                 <div id="wa-head">
                     <div  >
                          <img src={whatsapp} alt="" style={{  width: 35, height: 35 }} />
@@ -24,7 +40,7 @@ const WhatsPopup = () => {
                 </div>
                      
                     
-            </div>
+            </motion.div>
 
             
 

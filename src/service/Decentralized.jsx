@@ -1,5 +1,4 @@
-import React from 'react'
-import TopNavbar from '../component/TopNavbar'
+ 
 import './Service.css'
 import './Decentralized.css'
 import Footer from '../component/Footer'
@@ -83,12 +82,12 @@ const Decentralized = () => {
               <p className='DEpara'>{data.para1}</p>
               <br />
               <div className='DEbutton'>
-                <button className='dexbutton' id='btn1'>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton' id='btn1'>
                   {data.button1}
-                </button>
-                <button className='dexbutton' id='btn1'>
+                </a>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton' id='btn1'>
                   {data.button2}
-                </button>
+                </a>
 
               </div>
             </div>
@@ -106,9 +105,9 @@ const Decentralized = () => {
             <p className='DEparagraph'>{data.paragraph2}</p>
             <br />
             <div className='DEbutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -128,58 +127,58 @@ const Decentralized = () => {
             {data.paragraph3}</p>
         </div>
         <div id='DEsec3'>
-          <div class="DEcard">
-            <div class="DEcontent">
+          <div className="DEcard">
+            <div className="DEcontent">
               <img src='/Decentralized/de1.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading1}
-              </p><p class="para">{data.cardparagraph1}</p>
+              <p className="heading">{data.cardheading1}
+              </p><p className="para">{data.cardparagraph1}</p>
 
             </div>
           </div>
-          <div class="DEcard">
-            <div class="DEcontent">
+          <div className="DEcard">
+            <div className="DEcontent">
               <img src='/Decentralized/de2.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading2}
-              </p><p class="para">
+              <p className="heading">{data.cardheading2}
+              </p><p className="para">
                 {data.cardparagraph2}       </p>
 
             </div>
           </div>
-          <div class="DEcard">
-            <div class="DEcontent">
+          <div className="DEcard">
+            <div className="DEcontent">
               <img src='/Decentralized/de3.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading3}
-              </p><p class="para">
+              <p className="heading">{data.cardheading3}
+              </p><p className="para">
                 {data.cardparagraph3}
               </p>
 
             </div>
           </div>
-          <div class="DEcard">
-            <div class="DEcontent">
+          <div className="DEcard">
+            <div className="DEcontent">
               <img src='/Decentralized/de5.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading4}
-              </p><p class="para">
+              <p className="heading">{data.cardheading4}
+              </p><p className="para">
                 {data.cardparagraph4}
               </p>
 
             </div>
           </div>
-          <div class="DEcard">
-            <div class="DEcontent">
+          <div className="DEcard">
+            <div className="DEcontent">
               <img src='/Decentralized/de6.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading5}
-              </p><p class="para">
+              <p className="heading">{data.cardheading5}
+              </p><p className="para">
                 {data.cardparagraph5}
               </p>
 
             </div>
           </div>
-          <div class="DEcard">
-            <div class="DEcontent">
+          <div className="DEcard">
+            <div className="DEcontent">
               <img src='/Decentralized/de4.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading6}
-              </p><p class="para">
+              <p className="heading">{data.cardheading6}
+              </p><p className="para">
                 {data.cardparagraph6}
               </p>
 
@@ -195,9 +194,9 @@ const Decentralized = () => {
             <p className='DEparagraph'>{data.paragraph4}</p>
             <br />
             <div className='DEbutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -218,34 +217,34 @@ const Decentralized = () => {
           </p>
         </div>
         <div id='DEsec5' className="container">
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Decentralized/de11.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title1}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Decentralized/de11.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title1}</div>
+                <div className="n5hover_content">
                   <p> {data.content1}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Decentralized/de22.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title2}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Decentralized/de22.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title2}</div>
+                <div className="n5hover_content">
                   <p>{data.content2}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Decentralized/de33.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title3}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Decentralized/de33.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title3}</div>
+                <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
               </div>
             </div>

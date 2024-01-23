@@ -15,12 +15,14 @@
     font-weight:900;
 }
 .v1{
-  height: 80% !important;
+  height: 100% !important;
+
 }
 .video{
    
     width: 100%;
     object-fit: cover;
+    
     height: 85%;
     display: flex;
     position: absolute;

@@ -3,6 +3,7 @@ import Footer from "../component/Footer"
 import "../styles/Aboutus.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "@itseasy21/react-elastic-carousel";
+import { Link } from "react-router-dom";
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -38,9 +39,9 @@ const Aboutus = () => {
                         <p className='ABTheading'>{data.heading2}</p>
                         <p className='ABTparagraph'>{data.paragraph2}</p>
                         <div className='ABTbutton'>
-                            <button className='dexbutton'>
+                            <Link   to='/contact-us' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Contact
-                            </button>
+                            </Link>
 
 
 
@@ -77,12 +78,12 @@ const Aboutus = () => {
                         <p className='ABTparagraph4'>{data.paragraphx2}</p>
 
                         <div className='ABTbutton'>
-                            <button className='dexbutton'>
+                            <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Expert Consultantly
-                            </button>
-                            <button className='dexbutton'>
+                            </a>
+                            <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Download Broucher
-                            </button>
+                            </a>
 
 
                         </div>
