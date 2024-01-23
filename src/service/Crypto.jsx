@@ -6,8 +6,8 @@ import Footer from '../component/Footer'
 import token1 from '../assets/token1.png'
 import token2 from '../assets/token2.svg'
 import coinvi from '../assets/order2.mp4'
-import token3 from '../../public/Crypto/token1.jpg'
-import Waves from '../assets/crypto1.mp4'
+// import token3 from '../../public/Crypto/token1.jpg'
+// import Waves from '../assets/crypto1.mp4'
 const Crypto = () => {
   const data = {
     // nftsec1

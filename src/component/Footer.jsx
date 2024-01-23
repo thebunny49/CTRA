@@ -78,7 +78,7 @@ const Footer = () => {
 									<div className="col-md-3 mb-md-0 mb-4 border-left">
 										<h2 className="footer-heading">Privacy</h2>
 										<ul className="list-unstyled">
-											<li><Link   to="/TermCondition" style={{ textDecoration: 'none' }} className="py-1 d-block">Terms and condition</Link></li>
+											<li><Link to="/TermCondition" style={{ textDecoration: 'none' }} className="py-1 d-block">Terms and condition & Privacy Policy</Link></li>
 											{/* <li><a target='blank' href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Privacy Policy</a></li> */}
 
 										</ul>

@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 // import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import chat from '../assets/chat.gif'
@@ -11,6 +11,12 @@ import WhatsPopup from '../pages/WhatsPopup';
 
 const Microservice = () => {
   const [popup, setpopup] = useState('false');
+
+  useEffect(() => {
+    setTimeout(() => {
+      setpopup('True')
+    }, 5000);
+  }, []);
 
   const handlepopup = (state) => {
     if (state === 'true') {
