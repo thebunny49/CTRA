@@ -10,6 +10,7 @@ import PopupX2 from './pages/PopupX2';
 import Landing from './service/Landing';
 import TopNavbar from './component/TopNavbar';
 import Headroom from 'react-headroom';
+import TermCondition from './pages/TermCondition';
 // import Services from './service/Services';
 
 // Lazy-loaded components
@@ -69,6 +70,7 @@ const App = () => {
             <Route path="PopupX" element={<PopupX />} />
             <Route path="PopupX2" element={<PopupX2 />} />
             <Route path="Landing" element={<Landing />} />
+            <Route path="TermCondition" element={<TermCondition />} />
           </Routes>
         </Suspense>
       </BrowserRouter>
