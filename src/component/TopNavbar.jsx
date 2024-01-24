@@ -10,6 +10,8 @@ import "../component/TopNavbar.css"
 
 const TopNavbar = () => {
   const [visible, setvisible] = useState('false');
+  
+  const [refreshKey, setRefreshKey] = useState(0);
 
   const handleVisibility = (state) => {
     if (state == 'true') {
@@ -19,131 +21,17 @@ const TopNavbar = () => {
       setvisible('true')
     }
   }
+
+
+  const handleRefresh = () => {
+    setRefreshKey((prevKey) => prevKey + 1);
+  };
+
+ 
   return (
     <>
-      {/* <div className="nav">
-        <div className="nav2">
-                <img src={Logo} alt="" style={{width:"70%", height:"70%"}} />
-            </div>
-            <div className="nav1">
-            
-            <div className="nftdropdown">
-    <buttonb >
-   CRYPTOCURRENCY
-      
-    </buttonb>
-    <div className="nftdropdown-content">
-     <div className="navdiv">
-      <div className="navcontent">
-      <a href="#">NFT Marketplace</a>
-      <a href="#">NFT Smart Contract</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">Community Building</a>
-      <a href="#">Social Media Marketing</a>
-      </div>
-     </div>
-    </div>
-  </div> 
-            <div className="nftdropdown">
-    <buttonb >
-    NFT Marketplace
-      
-    </buttonb>
-    <div className="nftdropdown-content">
-     <div className="navdiv">
-      <div className="navcontent">
-      <a href="#">NFT Marketplace</a>
-      <a href="#">NFT Smart Contract</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">Community Building</a>
-      <a href="#">Social Media Marketing</a>
-      </div>
-     </div>
-    </div>
-  </div> 
- 
-  <div className="nftdropdown">
-    <buttonb >
-    Decentralized Exchange
-      
-    </buttonb>
-    <div className="nftdropdown-content">
-     <div className="navdiv">
-      <div className="navcontent">
-      <a href="#"><span className="navtext">NFT Marketplace</span></a>
-      <a href="#">NFT Smart Contract</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">Community Building</a>
-      <a href="#">Social Media Marketing</a>
-      </div>
-     </div>
-    </div>
-  </div> 
-  <div className="nftdropdown">
-    <buttonb >
-    ICO
-      
-    </buttonb>
-    <div className="nftdropdown-content">
-     <div className="navdiv">
-      <div className="navcontent">
-      <a href="#">NFT Marketplace</a>
-      <a href="#">NFT Smart Contract</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">Community Building</a>
-      <a href="#">Social Media Marketing</a>
-      </div>
-     </div>
-    </div>
-  </div> 
-  <div className="nftdropdown">
-    <buttonb >
-    STACKING PLATFORM
-      
-    </buttonb>
-    <div className="nftdropdown-content">
-     <div className="navdiv">
-      <div className="navcontent">
-      <a href="#">NFT Marketplace</a>
-      <a href="#">NFT Smart Contract</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">Community Building</a>
-      <a href="#">Social Media Marketing</a>
-      </div>
-     </div>
-    </div>
-  </div> 
-  <div className="nftdropdown">
-    <buttonb >
-   CRYPTO WALLET
-      
-    </buttonb>
-    <div className="nftdropdown-content">
-     <div className="navdiv">
-      <div className="navcontent">
-      <a href="#">NFT Marketplace</a>
-      <a href="#">NFT Smart Contract</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">NFT Marketplace Support</a>
-      <a href="#">Community Building</a>
-      <a href="#">Social Media Marketing</a>
-      </div>
-     </div>
-    </div>
-  </div> 
 
-            </div>
-           
-            <div className="nav3">
-                <Button1 />
-            </div>
-        </div> */}
-      <nav className="topclass bg-black   navbar navbar-expand-lg nav">
+      <nav className="topclass bg-black   navbar navbar-expand-lg nav" key={refreshKey}>
 
         <div className="container-fluid">
           <a className="navbar-brand" href="/"><img src={Logo} alt="" style={{ width: "90%", height: "90%" }} />
@@ -163,16 +51,17 @@ const TopNavbar = () => {
                 </Link>
                 <div className="nftdropdown-content">
                   <div className="navdiv">
-                    <div className="navcontent">
-                      <a href="#">Smart Contract Development</a>
-                      <a href="#">Token/Coin development</a>
-                      <a href="#">White Paper Design</a>
-                      <a href="#">Tokenomics Design</a>
-                      <a href="#">Custom Smart Contract</a>
-                      <a href="#">Meme Token Development</a>
-                      <a href="#">Stable Coin Development</a>
-                      <a href="#">ICO/IEO/STO coin Development</a>
-                      <a href="#">MLM Dex Contract Development</a>
+                    <div className="navcontent" style={{textTransform:'uppercase'}}>
+                      
+                      <Link onClick={handleRefresh} to="/crypto">Smart Contract Development</Link>
+                      <Link onClick={handleRefresh} to="/crypto">Token/Coin development</Link>
+                      <Link onClick={handleRefresh} to="/crypto">White Paper Design</Link>
+                      <Link onClick={handleRefresh} to="/crypto">Tokenomics Design</Link>
+                      <Link onClick={handleRefresh} to="/crypto">Custom Smart Contract</Link>
+                      <Link onClick={handleRefresh} to="/crypto">Meme Token Development</Link>
+                      <Link onClick={handleRefresh} to="/crypto">Stable Coin Development</Link>
+                      <Link onClick={handleRefresh} to="/crypto">ICO/IEO/STO coin Development</Link>
+                      <Link onClick={handleRefresh} to="/crypto">MLM Dex Contract Development</Link>
                     </div>
                   </div>
                 </div>
@@ -187,11 +76,11 @@ const TopNavbar = () => {
 
                 <div className="nftdropdown-content">
                   <div className="navdiv">
-                    <div className="navcontent">
-                      <a href="#">NFT Marketplace Development</a>
-                      <a href="#">NFT Game Developmet</a>
-                      <a href="#">NFT Sport Platform</a>
-                      <a href="#">NFT Buy and sell Platform</a>
+                    <div className="navcontent" style={{ textTransform: 'uppercase' }}>
+                      <Link onClick={handleRefresh} to="/nft">NFT Marketplace Development</Link>
+                      <Link onClick={handleRefresh} to="/nft">NFT Game Developmet</Link>
+                      <Link onClick={handleRefresh} to="/nft">NFT Sport Platform</Link>
+                      <Link onClick={handleRefresh} to="/nft">NFT Buy and sell Platform</Link>
                     </div>
                   </div>
                 </div>
@@ -207,20 +96,20 @@ const TopNavbar = () => {
 
                 <div className="nftdropdown-content">
                   <div className="navdiv">
-                    <div className="navcontent">
-                      <a href="#"><span className="navtext">Exchange Development</span></a>
-                      <a href="#">spot Trade Development</a>
-                      <a href="#">P2P Development</a>
-                      <a href="#">Crypto Algo Trade</a>
-                      <a href="#">Binance Clone</a>
-                      <a href="#">Launchpad Development</a>
-                      <a href="#">Wallet Development</a>
+                    <div className="navcontent" style={{ textTransform: 'uppercase' }}>
+                      <Link onClick={handleRefresh} to="/decentralized"><span className="navtext">Exchange Development</span></Link>
+                      <Link onClick={handleRefresh} to="/decentralized">spot Trade Development</Link>
+                      <Link onClick={handleRefresh} to="/decentralized">P2P Development</Link>
+                      <Link onClick={handleRefresh} to="/decentralized">Crypto Algo Trade</Link>
+                      <Link onClick={handleRefresh} to="/decentralized">Binance Clone</Link>
+                      <Link onClick={handleRefresh} to="/decentralized">Launchpad Development</Link>
+                      <Link onClick={handleRefresh} to="/decentralized">Wallet Development</Link>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="nftdropdown">
+              <div className="nftdropdown" >
                 <Link to="/ico" style={{ textDecoration: "none" }}>
                   <buttonb >
                     ICO MAKETING
@@ -229,61 +118,42 @@ const TopNavbar = () => {
 
                 <div className="nftdropdown-content">
                   <div className="navdiv">
-                    <div className="navcontent">
-                      <a href="#">Social Media Marketing</a>
-                      <a href="#">Influencer Marketing</a>
-                      <a href="#">Listing Services</a>
-                      <a href="#">Email Marketing</a>
-                      <a href="#">Airdrop Planning</a>
-                      <a href="#">Community Building</a>
-                      <a href="#">Auditing Services</a>
+                    <div className="navcontent" style={{ textTransform: 'uppercase' }}>
+                      <Link onClick={handleRefresh} to="/ico">Social Media Marketing</Link>
+                      <Link onClick={handleRefresh} to="/ico">Influencer Marketing</Link>
+                      <Link onClick={handleRefresh} to="/ico">Listing Services</Link>
+                      <Link onClick={handleRefresh} to="/ico">Email Marketing</Link>
+                      <Link onClick={handleRefresh} to="/ico">Airdrop Planning</Link>
+                      <Link onClick={handleRefresh} to="/ico">Community Building</Link>
+                      <Link onClick={handleRefresh} to="/ico">Auditing Services</Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="nftdropdown">
+               
+              <div className="nftdropdown"  >
 
-                <Link to="/stacking" style={{ textDecoration: "none" }}>
+                <Link to="/stacking" style={{ textDecoration: "none" }}  >
                   <buttonb >
                     {/* STACKING PLATFORM */}
                     Blockchain Solution
                   </buttonb>
                 </Link>
-                <div className="nftdropdown-content">
-                  <div className="navdiv">
-                    <div className="navcontent">
-                      <Link to="/stacking">STACKING PLATFORM</Link>
-                      <Link to="/decentralized">DECENTRALIZED EXCHANGE </Link>
-                      <Link to="/cryptowallet">WALLET DEVELOPMENT </Link>
-                      <Link to="/blockchain">BLOCKCHAIN</Link>
-                      <a href="#">MLM Software</a>
+                <div className="nftdropdown-content"   >
+                  <div className="navdiv" >
+                    <div className="navcontent" style={{ textTransform: 'uppercase' }}>
+                      <Link onClick={handleRefresh} to="/stacking">STACKING PLATFORM</Link>
+                      <Link onClick={handleRefresh} to="/decentralized">DECENTRALIZED EXCHANGE </Link>
+                      <Link onClick={handleRefresh} to="/cryptowallet">WALLET DEVELOPMENT </Link>
+                      <Link onClick={handleRefresh} to="/blockchain">BLOCKCHAIN</Link>
+                      <a onClick={handleRefresh} href="#">MLM Software</a>
 
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* <div className="nftdropdown">
-
-                <Link to="/cryptowallet" style={{ textDecoration: "none" }}>
-                  <buttonb >
-                    CRYPTO WALLET
-
-                  </buttonb>
-                </Link>
-                <div className="nftdropdown-content">
-                  <div className="navdiv">
-                    <div className="navcontent">
-                      <a href="#">NFT Marketplace</a>
-                      <a href="#">NFT Smart Contract</a>
-                      <a href="#">NFT Marketplace Support</a>
-                      <a href="#">NFT Marketplace Support</a>
-                      <a href="#">Community Building</a>
-                      <a href="#">Social Media Marketing</a>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
+              
 
               <div className="nftdropdown">
                 <Link to="/Aboutus" style={{ textDecoration: "none" }}>
@@ -295,9 +165,9 @@ const TopNavbar = () => {
 
                 <div className="nftdropdown-content">
                   <div className="navdiv">
-                    <div className="navcontent">
-                      <Link to="/contact-us">Contact-Us</Link>
-                      <Link to="/Aboutus">About Us</Link>
+                    <div className="navcontent" style={{ textTransform: 'uppercase' }}>
+                      <Link onClick={handleRefresh} to="/contact-us">Contact-Us</Link>
+                      <Link onClick={handleRefresh} to="/Aboutus">About Us</Link>
                     </div>
                   </div>
                 </div>

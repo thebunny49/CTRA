@@ -1,5 +1,8 @@
 
 
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 import wa from "../assets/wa.png"
 import x from "../assets/x.png"
 import tg from "../assets/tg.png"
@@ -8,7 +11,21 @@ import tg from "../assets/tg.png"
 import '../styles/Popup.css'
 
 
-const popup = () => {
+const PopupX = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_t0v8pce', 'template_g5zwo2h', form.current, 'CiV-Bx9xip5ib_tUA')
+      .then((result) => {
+        console.log(result.text);
+        console.log("massage send")
+        e.target.reset();
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
   return (
     <>
 
@@ -29,19 +46,19 @@ const popup = () => {
 
             <div className="contact-right">
 
-              <form action=" " method="post" id='contact-form'>
+              <form ref={form} onSubmit={sendEmail} method="post" id='contact-form'>
                 <h1>Get A Live Demo</h1>
                 <h4 style={{ fontSize: "17px", fontWeight: "500" }}>Lets sky rocket your Dream project togather</h4>
                 <div id="inputs">
 
-                  <input type="text" id="name" name="name" placeholder='Name' required />
+                  <input type="text" id="name" name="from_name" placeholder='Name' required />
 
-                  <input type="email" id="email" name="email" placeholder='Email' required />
+                  <input type="email" id="email" name="from_email" placeholder='Email' required />
 
-                  <input type="tel" id="phone" placeholder='Phone' name="phone" />
+                  <input type="tel" id="phone" placeholder='Phone' name="from_phone" required />
 
 
-                  <select id="budget" name="menu">
+                  <select id="budget" name="from_location" required>
                     <option value="" disabled selected>Select Your Country</option>
                     <option value="Afghanistan" id="AF">Afghanistan</option>
                     <option value="Albania" id="AL">Albania</option>
@@ -141,7 +158,7 @@ const popup = () => {
                     <option value="Hong Kong" id="HK">Hong Kong</option>
                     <option value="Hungary" id="HU">Hungary</option>
                     <option value="Iceland" id="IS">Iceland</option>
-                    <option value="India" id="IN">India</option>
+                    <option value="India" id="IN" selected>India</option>
                     <option value="Indonesia" id="ID">Indonesia</option>
                     <option value="Iran, Islamic Republic of" id="IR">Iran, Islamic Republic of</option>
                     <option value="Iraq" id="IQ">Iraq</option>
@@ -288,7 +305,7 @@ const popup = () => {
                   <textarea id="message" name="message" rows="5" placeholder='Maggage' required></textarea>
                 </div>
 
-                <button id="po-sub" type="submit">Submit</button>
+                <button className=' btn btn-dark d-flex justify-content-center align-items-center  ' style={{ height: 50 }} id="po-sub" type="submit">Submit</button>
                 <h3 style={{ fontSize: 15, textAlign: "center" }} >Protect your data is our #1 priority Your information is safe with us </h3>
 
                 <div className="si2">
@@ -332,4 +349,4 @@ const popup = () => {
   )
 }
 
-export default popup
+export default PopupX

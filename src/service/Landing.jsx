@@ -63,7 +63,7 @@ const Landing = () => {
 
                 <div className="contact-right">
 
-                    <form action=" " method="post" id='contact-form' ref={form} onSubmit={sendEmail}>
+                    <form   method="post" id='contact-form' ref={form} onSubmit={sendEmail}>
                         <h1>Send Us a Message</h1>
                         <div id="inputs">
 

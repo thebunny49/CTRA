@@ -2,9 +2,26 @@
 import "../styles/PopupX2.css"
 // import fb from "../assets/logo/pho1.svg"
 
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 
-const popup = () => {
+const PopupX2 = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_t0v8pce', 'template_g5zwo2h', form.current, 'CiV-Bx9xip5ib_tUA')
+            .then((result) => {
+                console.log(result.text);
+                console.log("massage send")
+                e.target.reset();
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <>
    
@@ -12,7 +29,7 @@ const popup = () => {
 
             <div id="pop2">
                 <div id="pop2-container">
-                    <form id="pop2-form" action="">
+                    <form ref={form} onSubmit={sendEmail} id="pop2-form" action="">
 
                         <div id="heading">
                             <h3>Lets Quickely Bond</h3>
@@ -20,17 +37,17 @@ const popup = () => {
 
                         <div id="bottom">
 
-                            <input type="text" className="   ex-input " id="ex-input" placeholder="Enter Your Name" />
+                            <input name="from_name" type="text" className="ex-input " id="ex-input1" placeholder="Enter Your Name" required />
 
-                            <input type="email" className="   ex-input" id="ex-input" placeholder="Enter Your email" />
+                            <input name="from_email" type="email" className="ex-input" id="ex-input2" placeholder="Enter Your email" required />
 
-                            <input type="text" className="   ex-input" id="ex-input" placeholder="Enter Your number" />
+                            <input name="from_phone" type="text" className="ex-input" id="ex-input3" placeholder="Enter Your number" required />
 
                             {/* <input type="email" className="  ex-input " id="ex-input" placeholder="select your country" /> */}
 
-                            <select className="ex-input" placeholder="Select Your Country" id="contry">
+                            <select className="ex-input" name="from_location" placeholder="Select Your Country" id="contry" required>
                                 <option value="" disabled selected>Select Your Country</option>
-                                <option value="Afghanistan" id="AF">Afghanistan</option>
+                                <option value="Afghanistan" id="AF"  >Afghanistan</option>
                                 <option value="Albania" id="AL">Albania</option>
                                 <option value="Algeria" id="DZ">Algeria</option>
                                 <option value="American Samoa" id="AS">American Samoa</option>
@@ -128,7 +145,7 @@ const popup = () => {
                                 <option value="Hong Kong" id="HK">Hong Kong</option>
                                 <option value="Hungary" id="HU">Hungary</option>
                                 <option value="Iceland" id="IS">Iceland</option>
-                                <option value="India" id="IN">India</option>
+                                <option value="India" id="IN" selected>India</option>
                                 <option value="Indonesia" id="ID">Indonesia</option>
                                 <option value="Iran, Islamic Republic of" id="IR">Iran, Islamic Republic of</option>
                                 <option value="Iraq" id="IQ">Iraq</option>
@@ -271,9 +288,9 @@ const popup = () => {
                                 <option value="Zimbabwe" id="ZW">Zimbabwe</option>
                             </select>
 
-                            <textarea className=" ex-input" id="ex-input" placeholder="Enter your Subject" rows="2"></textarea>
+                            <textarea name="message" className="ex-input" id="ex-input" placeholder="Enter your Subject" rows="2"></textarea>
 
-                        <button style={{width:"50%", margin:"0 auto"}}  className='s4button' id='btn1'>
+                            <button type="submit" style={{width:"50%", margin:"0 auto"}}  className='s4button' id='btn1'>
                             Submit
                         </button>
                         </div>
@@ -296,4 +313,4 @@ const popup = () => {
     )
 }
 
-export default popup
+export default PopupX2
