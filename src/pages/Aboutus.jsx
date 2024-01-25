@@ -61,10 +61,13 @@ const Aboutus = () => {
                 <div id='ABTsec3' className="container">
                     <div id="ABTright3">
                         <div className='ABTright3'>
-                            <img id="ABTgif" src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="" />
+                            <picture>
+                                {/* Source for browsers that support the "srcset" attribute */}
+                                <source srcSet="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" type="image/gif" />
 
-
-
+                                {/* Fallback source for browsers that do not support "srcset" */}
+                                <img id="ABTgif" src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="" />
+                            </picture>
                         </div>
                     </div>
                     <div id="ABTleft3">

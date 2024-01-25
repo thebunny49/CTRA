@@ -53,7 +53,7 @@ const ContactUs = () => {
             </div>
             <div className="contact1">
               <img src={cuimg} alt="" />
-              <p className='cuhead'>Call Us</p>
+              <p className='cuhead'>Connect Us</p>
               <div className='contact-no' style={{ flexDirection: "column" }}>
 
 

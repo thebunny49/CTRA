@@ -8,6 +8,9 @@ import { Link } from 'react-router-dom'
 import PopupX2 from "../pages/PopupX2"
 import "../component/TopNavbar.css"
 
+import pdf1 from "../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf"
+import pdf2 from "../assets/pdf/CRYPTORA  PRODUCT PROPOSAL 3.pdf"
+
 const TopNavbar = () => {
   const [visible, setvisible] = useState('false');
   
@@ -166,8 +169,15 @@ const TopNavbar = () => {
                 <div className="nftdropdown-content">
                   <div className="navdiv">
                     <div className="navcontent" style={{ textTransform: 'uppercase' }}>
+                      
+
                       <Link onClick={handleRefresh} to="/contact-us">Contact-Us</Link>
+
                       <Link onClick={handleRefresh} to="/Aboutus">About Us</Link>
+                      <a href={pdf1} download="downloaded_file.pdf">Pitch Desk PDF  <i className="fa-solid fa-download"></i> </a>
+                      <a href={pdf2} download="downloaded_file.pdf">Service Catalogue PDF  <i className="fa-solid fa-download"></i>  </a>
+                      {/* <Link onClick={handleRefresh} to={pdf1}>Pitch Desk</Link>
+                      <Link onClick={handleRefresh} to={pdf2}>Service Catalogue</Link> */}
                     </div>
                   </div>
                 </div>
