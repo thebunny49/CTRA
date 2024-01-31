@@ -93,11 +93,11 @@ const Microservice = () => {
 
       </div> */}
 
-      <div className="chatsupport" >
+      {/* <div className="chatsupport" >
         <div className="chat" style={{ width: 50, height: 50, overflow: "hidden", borderRadius: "150px", backgroundColor: "white", display: "flex", justifyContent: "center", alignItems: 'center' }}>
           <img src={chat} alt="" style={{ width: 40, height: 40 }} />
         </div>
-      </div>
+      </div> */}
       <div className="chatsupport2" >
         <div style={{ display: popup === 'false' ? 'block' : 'none'    }} >
           <WhatsPopup />
