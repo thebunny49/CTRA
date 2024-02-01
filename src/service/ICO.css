@@ -1009,7 +1009,7 @@ line-height: 28.25px; /* 175% */
     }
     #nftright2{
       flex-direction: column;
-      width: 100%;
+      width: 80%;
       display: flex;
       justify-content: center;align-items: center;
     }

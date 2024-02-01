@@ -1,4 +1,4 @@
- 
+
 import '../styles/Section1.css'
 import '../styles/Button2.css'
 import '../styles/Social.css'
@@ -9,7 +9,7 @@ function Section1() {
   return (
     <>
       <div className="main">
-        <video autoPlay loop muted playsInline   className='video v1'>
+        <video autoPlay loop muted playsInline className='video v1'>
           <source src={Waves} type='video/mp4' />
 
         </video>
@@ -45,7 +45,7 @@ function Section1() {
           M 10, 50  
           a 40,40 0 1,1 80,0  
           a 40,40 0 1,1 -80,0  
-        " /></a> 
+        " /></a>
                 <text id="text" fontSize="12" fontWeight="bold" fill="white" >
                   <textPath id="textPath" style={{ color: 'white' }} href="#circlePath" >SCROLL DOWN SCROLL DOWN SCROLL DOWN  </textPath>
                 </text>

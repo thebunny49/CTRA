@@ -18,29 +18,23 @@ import '../styles/Home.css'
 const Home = () => {
   return (
     <>
-      {/* <TopNavbar /> */}
-      
-        {/* <div className='support'>
-          <div className='fb'>
-            <span className='socialpara'>FB</span>
-          </div>
-          <div className='wa'>WA</div>
-          <div className='ig'>INSTA</div>
-          <div className='yt'>Youtube</div>
-        </div> */}
        
+       
+      <div style={{overflowX:"hidden"}} >
+
       
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Section4 />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
       <Section5 />
       <Section6 />
-    
       <Section7 />
       <Section8 />
       <Section9 />
       <Footer />
+      
+      </div>
     </>
   )
 }

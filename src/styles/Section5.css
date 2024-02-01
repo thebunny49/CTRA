@@ -162,12 +162,12 @@ opacity: 0.5;
 
 @media (max-width:768px){
     .s5main{
-      flex-direction: column;
+      flex-direction: column-reverse;
       width: 100%;
       height: 100%;
     }
     .s6main{
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         height: 100%;
       }
