@@ -1,12 +1,12 @@
-import React from 'react'
+ 
 import './ICO.css'
-import TopNavbar from '../component/TopNavbar'
+ 
 import './Service.css'
 import Footer from '../component/Footer'
 import Waves from '../../public/ICO/icoback.mp4'
 import icoimg1 from '../../public/ICO/icoimg1.png'
 import icoimg2 from '../../public/ICO/icoimg2.png'
-
+import { Helmet } from 'react-helmet'
 
 const ICO = () => {
   const data = {
@@ -100,7 +100,23 @@ const ICO = () => {
   }
   return (
     <>
-        {/* <TopNavbar /> */}
+      <Helmet>
+        <title> ICO Marketing Services Company To Promote Token - Cryptora</title>
+
+        <meta name='description' content=' Looking for an ICO Marketing Company to launch your ICO successfully? Cryptora offers an absolute ICO Marketing Service to launch ICO in the market. ' />
+
+        <meta name="keywords" content="ICO Marketing, ICO Marketing Company, ICO Marketing Agency, ICO Marketing Services, ICO Marketing Plan, ICO Marketing Strategy" />
+        <link rel="canonical" href="https://cryptora.tech/ico-marketing" />
+        <meta property="og:title" content="ICO Marketing Services Company To Promote Token - Cryptora" />
+        <meta property="og:url" content="https://cryptora.tech/ico-marketing" />
+        <meta property="og:description" content="Looking for an ICO Marketing Company to launch your ICO successfully? Cryptora offers an absolute ICO Marketing Service to launch ICO in the market. " />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="https://cryptora.tech/ico-marketing" />
+        <meta name="twitter:title" content="ICO Marketing Services Company To Promote Token - Cryptora" />
+        <meta name="twitter:description" content="Looking For an ico marketing company to launch your sucsessfully? cryptora offers absolute service in the market." />
+
+      </Helmet>
+      {/* <TopNavbar /> */}
       <div id="icobody">
 
         <div className='icosec1main' >

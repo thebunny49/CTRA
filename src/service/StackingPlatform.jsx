@@ -3,6 +3,7 @@ import './Service.css'
 import './Staking.css'
 import Footer from '../component/Footer'
 import Waves from "../assets/staking.mp4"
+import { Helmet } from 'react-helmet'
 
 
 const StackingPlatform = () => {
@@ -66,6 +67,23 @@ const StackingPlatform = () => {
   }
   return (
     <>
+      <Helmet>
+        <title> DeFi Staking Platform Development Company - Cryptora </title>
+
+        <meta name='description' content=' Cryptora is the best DeFi Staking Platform Development Company that offers DeFi Staking Development Services to Create your own Crypto Staking Platform. ' />
+
+        <meta name="keywords" content="DeFi Staking Development Services, DeFi Staking Development, DeFi Staking Platform Development Services, DeFi Staking Platform" />
+        <link rel="canonical" href="https://cryptora.tech/staking-platform-development" />
+        <meta property="og:title" content="DeFi Staking Platform Development Company - Cryptora" />
+        <meta property="og:url" content="https://cryptora.tech/staking-platform-development" />
+        <meta property="og:description" content="Cryptora is the best DeFi Staking Platform Development Company that offers DeFi Staking Development Services to Create your own Crypto Staking Platform." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="https://cryptora.tech/staking-platform-development" />
+        <meta name="twitter:title" content="DeFi Staking Platform Development Company - Cryptora" />
+        <meta name="twitter:description" content="Cryptora is the best DeFi Staking Platform Development Company that offers DeFi Staking Development Services to Create your own Crypto Staking Platform." />
+
+
+      </Helmet>
       <div id="stakingbody">
         {/* <TopNavbar /> */}
 

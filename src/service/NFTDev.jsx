@@ -1,9 +1,10 @@
 import React from 'react'
-import TopNavbar from '../component/TopNavbar'
+// import TopNavbar from '../component/TopNavbar'
 import './ICO.css'
 import Footer from '../component/Footer'
 import Waves from '/public/NFTDev/nft.mp4'
 import video2 from '/public/NFTDev/nftvideo2.mp4'
+import { Helmet } from 'react-helmet'
 const NFTDev = () => {
   const data = {
     // nftsec1
@@ -86,6 +87,24 @@ const NFTDev = () => {
 
   return (
     <>
+      <Helmet>
+        <title> NFT Marketplace Development Company - Cryptora </title>
+
+        <meta name='description' content=' Start your own NFT marketplace for selling digital assets. As an NFT marketplace development company, we are experts in developing solutions.' />
+
+        <meta name="keywords" content="nft marketplace development, nft marketplace development company, nft marketplace development services, nft marketplace development solutions, nft marketplace platform development" />
+        <link rel="canonical" href="https://cryptora.tech/nft-marketplace-development" />
+        <meta property="og:title" content="NFT Marketplace Development Company - Cryptora" />
+        <meta property="og:url" content="https://cryptora.tech/nft-marketplace-development" />
+        <meta property="og:description" content="Start your own NFT marketplace for selling digital assets. As an NFT marketplace development company, we are experts in developing solutions." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="https://www.blockchainx.tech/nft-marketplace-development/" />
+        <meta name="twitter:title" content="NFT Marketplace Development Company - Cryptora" />
+        <meta name="twitter:description" content="Start your own NFT marketplace for selling digital assets. As an NFT marketplace development company, we are experts in developing solutions." />
+
+
+      </Helmet>
+
       <div id="nftbody">
         {/* <TopNavbar /> */}
         {/* nftsec1 */}
@@ -108,7 +127,7 @@ const NFTDev = () => {
                 </div>
               </div>
               <p className="nfthead">DEVELOPMENT</p>
-              <p className='nftpara'>{data.para1}</p>
+              <p className='nftpara' style={{ color: "#d0cbcb", zIndex: 1 }} >{data.para1}</p>
               <br />
               <div className='nftbutton'>
                 <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton' id='btn1'>

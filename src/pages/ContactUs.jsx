@@ -1,11 +1,12 @@
 // import React from 'react'
-import   { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 import '../styles/ContactUs.css'
 
 import cuimg from "/asset.svg"
 import conbg from "/src/assets/contact-bg.jpg"
+import { Helmet } from 'react-helmet';
 
 
 const ContactUs = () => {
@@ -26,7 +27,23 @@ const ContactUs = () => {
 
   return (
     <>
-      {/* <TopNavbar /> */}
+      <Helmet>
+        <title> Blockchain Consulting Services & Solutions - Cryptora </title>
+
+        <meta name='description' content=' Blockchain consulting services provide expert guidance on implementing and leveraging blockchain technology specialize in NFT, web3, software development, ledger technology and app development.'/>
+
+        <meta name="keywords" content="crypto token development company, token development, token development services" />
+        <link rel="canonical" href="https://cryptora.tech/blockchain-consulting-service" />
+        <meta property="og:title" content="Blockchain Consulting Services & Solutions - Cryptora" />
+        <meta property="og:url" content="https://cryptora.tech/blockchain-consulting-service" />
+        <meta property="og:description" content="Blockchain consulting services provide expert guidance on implementing and leveraging blockchain technology specialize in NFT, web3, software development, ledger technology and app development " />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="https://cryptora.tech/blockchain-consulting-service" />
+        <meta name="twitter:title" content="Blockchain Consulting Services & Solutions - Cryptora" />
+        <meta name="twitter:description" content="Blockchain consulting services provide expert guidance on implementing and leveraging blockchain technology specialize in NFT, web3, software development, ledger technology and app development. " />
+
+      </Helmet>
+
       <img src={conbg} id='conbg' alt="" />
       <div className="contactmain container">
         <div className="contactsec1">
@@ -88,7 +105,7 @@ const ContactUs = () => {
 
           <div className="contact-right">
 
-            <form ref={form} onSubmit={sendEmail}  id='contact-form'>
+            <form ref={form} onSubmit={sendEmail} id='contact-form'>
               <h1>Send Us a Message</h1>
               <div id="inputs">
 
@@ -101,7 +118,7 @@ const ContactUs = () => {
                 <input type="text" id="budget" placeholder='Budget' name="from_budget" required />
                 <textarea id="message" name="message" rows="5" placeholder='Maggage' required></textarea>
               </div>
-              <button  className=' btn btn-dark d-flex justify-content-center align-items-center  '  style={{height:50}}   type="submit">Submit</button>
+              <button className=' btn btn-dark d-flex justify-content-center align-items-center  ' style={{ height: 50 }} type="submit">Submit</button>
             </form>
 
           </div>

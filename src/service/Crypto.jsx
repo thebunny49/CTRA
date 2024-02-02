@@ -1,11 +1,12 @@
- 
+
 import './Crypto.css'
- 
+
 import './Service.css'
 import Footer from '../component/Footer'
 import token1 from '../assets/token1.png'
 import token2 from '../assets/token2.svg'
 import coinvi from '../assets/order2.mp4'
+import { Helmet } from 'react-helmet'
 // import token3 from '../../public/Crypto/token1.jpg'
 // import Waves from '../assets/crypto1.mp4'
 const Crypto = () => {
@@ -76,6 +77,23 @@ const Crypto = () => {
   }
   return (
     <>
+      <Helmet>
+        <title> Crypto Token Development Company - Cryptora </title>
+
+        <meta name='description' content=' Trusted crypto token development company, our expert developers helps businesses quickly create top-tier tokens on any blockchain network.' />
+        <meta name="keywords" content="crypto token development company, token development, token development services" />
+        <link rel="canonical" href="https://cryptora.tech/token-development" />
+        <meta property="og:title" content="Crypto Token Development Company - Cryptora" />
+        <meta property="og:url" content="https://cryptora.tech/token-development" />
+        <meta property="og:description" content="Trusted crypto token development company, our expert developers helps businesses quickly create top-tier tokens on any blockchain network. " />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="https://cryptora.tech/token-development" />
+        <meta name="twitter:title" content="Crypto Token Development Company - Cryptora" />
+        <meta name="twitter:description" content="Trusted crypto token development company, our expert developers helps businesses quickly create top-tier tokens on any blockchain network." />
+
+
+      </Helmet>
+
       <div id="cryptobody">
         {/* <TopNavbar /> */}
         <video autoPlay loop muted playsInline className='video'>
@@ -92,7 +110,7 @@ const Crypto = () => {
               <p className='cryptopara'>{data.para1}</p>
               <br />
               <div className='cryptobutton'>
-                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{textDecoration:"none"}}  className='dexbutton'>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button1}
                 </a>
                 <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>

@@ -1,10 +1,11 @@
- 
+
 import './Service.css'
 import './Decentralized.css'
 import Footer from '../component/Footer'
 import Waves from '../../public/Decentralized/dex_3.mp4'
 import deimg1 from '/Decentralized/deimg1.png'
 import deimg2 from '/Decentralized/deimg2.png'
+import { Helmet } from 'react-helmet'
 const Decentralized = () => {
 
   const data = {
@@ -66,6 +67,24 @@ const Decentralized = () => {
   }
   return (
     <>
+      <Helmet>
+
+        <title> Cryptocurrency Exchange App Design & Development - Cryptora </title>
+
+        <meta name='description' content=' Launch your cryptocurrency exchange application. Cryptora is a leading provider of decentralized exchange app design and development services.' />
+        <meta name="keywords" content="exchange software development, cryptocurrency exchange software open source, crypto exchange development, Cryptocurrency exchange software development" />
+        <link rel="canonical" href="https://cryptora.tech/decentralized-exchange-development" />
+        <meta property="og:title" content="Cryptocurrency Exchange App Design & Development - Cryptora" />
+        <meta property="og:url" content="https://cryptora.tech/decentralized-exchange-development" />
+        <meta property="og:description" content="Launch your cryptocurrency exchange application. Cryptora is a leading provider of decentralized exchange app design and development services." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="https://cryptora.tech/decentralized-exchange-development" />
+        <meta name="twitter:title" content="Cryptocurrency Exchange App Design & Development - Cryptora" />
+        <meta name="twitter:description" content="Launch your cryptocurrency exchange application. Cryptora is a leading provider of decentralized exchange app design and development services." />
+
+
+      </Helmet>
+
       <div id="DEbody">
         {/* <TopNavbar /> */}
 

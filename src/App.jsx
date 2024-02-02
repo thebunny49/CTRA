@@ -1,7 +1,7 @@
-import React, { lazy, Suspense, useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import chat from './assets/chat.gif';
+// import chat from './assets/chat.gif';
 import Microservice from './service/Microservice';
 import ContactUs from './pages/ContactUs';
 import Aboutus from './pages/Aboutus';
@@ -50,21 +50,21 @@ const App = () => {
       <Microservice />
       <BrowserRouter>
         <Headroom>
-        <TopNavbar />
+          <TopNavbar />
         </Headroom>
         <Suspense fallback={isLoading ? <Loader /> : null}>
 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="services" element={<Services />} />
-            <Route path="nft" element={<NFTDev />} />
-            <Route path="crypto" element={<Crypto />} />
-            <Route path="ico" element={<ICO />} />
+            <Route path="nft-marketplace-development" element={<NFTDev />} />
+            <Route path="token-development" element={<Crypto />} />
+            <Route path="ico-marketing" element={<ICO />} />
             <Route path="blockchain" element={<Blockchain />} />
-            <Route path="decentralized" element={<Decentralized />} />
+            <Route path="decentralized-exchange-development" element={<Decentralized />} />
             <Route path="cryptowallet" element={<CryptoWallet />} />
-            <Route path="stacking" element={<StackingPlatform />} />
-            <Route path="contact-us" element={<ContactUs />} />
+            <Route path="staking-platform-development" element={<StackingPlatform />} />
+            <Route path="blockchain-consulting-service" element={<ContactUs />} />
             <Route path="c-service" element={<Service />} />
             <Route path="Aboutus" element={<Aboutus />} />
             <Route path="PopupX" element={<PopupX />} />

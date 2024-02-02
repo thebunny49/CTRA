@@ -1,4 +1,4 @@
- 
+
 import '../styles/Footer.css'
 import Arrow from '../assets/arre.gif'
 import { Link } from 'react-router-dom'
@@ -21,7 +21,7 @@ const Footer = () => {
 									<form action="#" className="subscribe-form" >
 										<div className="form-group d-flex" style={{ flexDirection: 'row', }}>
 											{/* <input type="text" className="form-control rounded-left" placeholder="Enter email address" style={{ paddingLeft: 30 }} /> */}
-											<Link to='/contact-us' className=' d-flex justify-content-center  align-items-center s4button' style={{ textDecoration:"none",color: 'black', fontWeight: 800, borderRadius: 50, width: "100%", fontSize: 12 }}>
+											<Link to='/blockchain-consulting-service ' className=' d-flex justify-content-center  align-items-center s4button' style={{ textDecoration: "none", color: 'black', fontWeight: 800, borderRadius: 50, width: "100%", fontSize: 12 }}>
 												Contact Now <img src={Arrow} alt="" className='arrow' style={{ width: 25, height: 25 }} />
 											</Link>
 										</div>
@@ -52,10 +52,10 @@ const Footer = () => {
 										<h2 className="footer-heading">Quick Links</h2>
 										<ul className="list-unstyled">
 
-											<li><Link to="/nft" style={{ textDecoration: 'none' }} className="py-1 d-block">NFT Marketplace Development</Link></li>
-											<li><Link to="/crypto" style={{ textDecoration: 'none' }} className="py-1 d-block">Cryptocurrency Token Development</Link></li>
-											<li><Link to="/decentralized" style={{ textDecoration: 'none' }} className="py-1 d-block">Decentralized Exchange</Link></li>
-											<li><Link to="/ico" style={{ textDecoration: 'none' }} className="py-1 d-block">ICO Marketing</Link></li>
+											<li><Link to="/nft-marketplace-development" style={{ textDecoration: 'none' }} className="py-1 d-block">NFT Marketplace Development</Link></li>
+											<li><Link to="/token-development " style={{ textDecoration: 'none' }} className="py-1 d-block">Cryptocurrency Token Development</Link></li>
+											<li><Link to="/decentralized-exchange-development " style={{ textDecoration: 'none' }} className="py-1 d-block">Decentralized Exchange</Link></li>
+											<li><Link to="/ico-marketing" style={{ textDecoration: 'none' }} className="py-1 d-block">ICO Marketing</Link></li>
 											{/* <li><a target='blank' href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Staking Platform DApp</a></li>
 											<li><a target='blank' href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Multichain Crypto Wallet</a></li>
 											<li><a target='blank' href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Blockchain Consulting</a></li>
@@ -71,7 +71,7 @@ const Footer = () => {
 											{/* <li><a target='blank' href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Blog</a></li> */}
 											<li><Link to="/c-service" style={{ textDecoration: 'none' }} className="py-1 d-block">Services</Link></li>
 											<li><Link to="/Aboutus" style={{ textDecoration: 'none' }} className="py-1 d-block">About Us</Link></li>
-											<li><Link to="/contact-us" style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>
+											<li><Link to="/blockchain-consulting-service " style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>
 											<li><Link to="/Landing" style={{ textDecoration: 'none' }} className="py-1 d-block">Landing</Link></li>
 										</ul>
 									</div>
