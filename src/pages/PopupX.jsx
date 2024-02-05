@@ -302,7 +302,7 @@ const PopupX = () => {
 
                   </select>
 
-                  <textarea id="message" name="message" rows="5" placeholder='Massage' required></textarea>
+                  <textarea id="message" name="message" rows="5" placeholder='Message' required></textarea>
                 </div>
 
                 <button className=' btn btn-dark d-flex justify-content-center align-items-center  ' style={{ height: 50 }} id="po-sub" type="submit">Submit</button>

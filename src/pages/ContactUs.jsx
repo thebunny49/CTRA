@@ -52,7 +52,7 @@ const ContactUs = () => {
           </div>
           <p className='contactpara'>Have questions or want to get in touch with us?</p>
           <p>Please feel free to contact us if you have any questions, feedback, or inquiries. Our dedicated team is here to assist you and ensure that your experience with us is positive and satisfactory. You can reach out to us via the provided contact form, email, or phone number. We value your input and are committed to addressing your needs promptly. Thank you for choosing us and we look forward to hearing from you soon!</p>
-
+          <p>Blockchain consulting services provide expert guidance on implementing and leveraging blockchain technology specialize in NFT, web3, software development, ledger technology and app development.</p>
         </div>
 
 
@@ -116,7 +116,7 @@ const ContactUs = () => {
                 <input type="tel" id="phone" placeholder='Phone' name="from_phone" required />
 
                 <input type="text" id="budget" placeholder='Budget' name="from_budget" required />
-                <textarea id="message" name="message" rows="5" placeholder='Maggage' required></textarea>
+                <textarea id="message" name="message" rows="5" placeholder='Message' required></textarea>
               </div>
               <button className=' btn btn-dark d-flex justify-content-center align-items-center  ' style={{ height: 50 }} type="submit">Submit</button>
             </form>
