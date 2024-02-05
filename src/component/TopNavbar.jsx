@@ -148,7 +148,8 @@ const TopNavbar = () => {
                       <Link onClick={handleRefresh} to="/staking-platform-development">STACKING PLATFORM</Link>
                       <Link onClick={handleRefresh} to="/decentralized-exchange-development ">DECENTRALIZED EXCHANGE </Link>
                       <Link onClick={handleRefresh} to="/cryptowallet">WALLET DEVELOPMENT </Link>
-                      <Link onClick={handleRefresh} to="/blockchain">BLOCKCHAIN</Link>
+                      <Link onClick={handleRefresh} to="/blockchain-consulting-service"> blockchain-consulting-service</Link>
+                      <Link onClick={handleRefresh} to="/c-service">SERVICES</Link>
                       <a onClick={handleRefresh} href="#">MLM Software</a>
 
                     </div>
@@ -171,7 +172,7 @@ const TopNavbar = () => {
                     <div className="navcontent" style={{ textTransform: 'uppercase' }}>
 
 
-                      <Link onClick={handleRefresh} to="/blockchain-consulting-service">Contact-Us</Link>
+                      <Link onClick={handleRefresh} to="/Contact-us">Contact-Us</Link>
 
                       <Link onClick={handleRefresh} to="/Aboutus">About Us</Link>
                       <a href={pdf1} download="downloaded_file.pdf">Pitch Desk PDF  <i className="fa-solid fa-download"></i> </a>

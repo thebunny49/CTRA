@@ -27,22 +27,7 @@ const ContactUs = () => {
 
   return (
     <>
-      <Helmet>
-        <title> Blockchain Consulting Services & Solutions - Cryptora </title>
-
-        <meta name='description' content=' Blockchain consulting services provide expert guidance on implementing and leveraging blockchain technology specialize in NFT, web3, software development, ledger technology and app development.'/>
-
-        <meta name="keywords" content="crypto token development company, token development, token development services" />
-        <link rel="canonical" href="https://cryptora.tech/blockchain-consulting-service" />
-        <meta property="og:title" content="Blockchain Consulting Services & Solutions - Cryptora" />
-        <meta property="og:url" content="https://cryptora.tech/blockchain-consulting-service" />
-        <meta property="og:description" content="Blockchain consulting services provide expert guidance on implementing and leveraging blockchain technology specialize in NFT, web3, software development, ledger technology and app development " />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="https://cryptora.tech/blockchain-consulting-service" />
-        <meta name="twitter:title" content="Blockchain Consulting Services & Solutions - Cryptora" />
-        <meta name="twitter:description" content="Blockchain consulting services provide expert guidance on implementing and leveraging blockchain technology specialize in NFT, web3, software development, ledger technology and app development. " />
-
-      </Helmet>
+      
 
       <img src={conbg} id='conbg' alt="" />
       <div className="contactmain container">

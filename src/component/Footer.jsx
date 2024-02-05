@@ -21,7 +21,7 @@ const Footer = () => {
 									<form action="#" className="subscribe-form" >
 										<div className="form-group d-flex" style={{ flexDirection: 'row', }}>
 											{/* <input type="text" className="form-control rounded-left" placeholder="Enter email address" style={{ paddingLeft: 30 }} /> */}
-											<Link to='/blockchain-consulting-service ' className=' d-flex justify-content-center  align-items-center s4button' style={{ textDecoration: "none", color: 'black', fontWeight: 800, borderRadius: 50, width: "100%", fontSize: 12 }}>
+											<Link to='/Contact-us ' className=' d-flex justify-content-center  align-items-center s4button' style={{ textDecoration: "none", color: 'black', fontWeight: 800, borderRadius: 50, width: "100%", fontSize: 12 }}>
 												Contact Now <img src={Arrow} alt="" className='arrow' style={{ width: 25, height: 25 }} />
 											</Link>
 										</div>
@@ -71,7 +71,7 @@ const Footer = () => {
 											{/* <li><a target='blank' href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Blog</a></li> */}
 											<li><Link to="/c-service" style={{ textDecoration: 'none' }} className="py-1 d-block">Services</Link></li>
 											<li><Link to="/Aboutus" style={{ textDecoration: 'none' }} className="py-1 d-block">About Us</Link></li>
-											<li><Link to="/blockchain-consulting-service " style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>
+											<li><Link to="/Contact-us " style={{ textDecoration: 'none' }} className="py-1 d-block">Contact Us</Link></li>
 											<li><Link to="/Landing" style={{ textDecoration: 'none' }} className="py-1 d-block">Landing</Link></li>
 										</ul>
 									</div>

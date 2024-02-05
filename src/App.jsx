@@ -60,11 +60,11 @@ const App = () => {
             <Route path="nft-marketplace-development" element={<NFTDev />} />
             <Route path="token-development" element={<Crypto />} />
             <Route path="ico-marketing" element={<ICO />} />
-            <Route path="blockchain" element={<Blockchain />} />
+            <Route path="blockchain-consulting-service" element={<Blockchain />} />
             <Route path="decentralized-exchange-development" element={<Decentralized />} />
             <Route path="cryptowallet" element={<CryptoWallet />} />
             <Route path="staking-platform-development" element={<StackingPlatform />} />
-            <Route path="blockchain-consulting-service" element={<ContactUs />} />
+            <Route path="Contact-us" element={<ContactUs />} />
             <Route path="c-service" element={<Service />} />
             <Route path="Aboutus" element={<Aboutus />} />
             <Route path="PopupX" element={<PopupX />} />
