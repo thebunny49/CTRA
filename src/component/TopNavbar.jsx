@@ -177,8 +177,8 @@ const TopNavbar = () => {
                       <Link onClick={handleRefresh} to="/Aboutus">About Us</Link>
                       <a href={pdf1} download="downloaded_file.pdf">Pitch Desk PDF  <i className="fa-solid fa-download"></i> </a>
                       <a href={pdf2} download="downloaded_file.pdf">Service Catalogue PDF  <i className="fa-solid fa-download"></i>  </a>
-                      {/* <Link onClick={handleRefresh} to={pdf1}>Pitch Desk</Link>
-                      <Link onClick={handleRefresh} to={pdf2}>Service Catalogue</Link> */}
+                      <Link onClick={handleRefresh} to="/PR">PR</Link>
+                      {/* <Link onClick={handleRefresh} to={pdf2}>Service Catalogue</Link> */}
                     </div>
                   </div>
                 </div>

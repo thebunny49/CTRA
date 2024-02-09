@@ -1,5 +1,7 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
+
 import Home from './pages/Home';
 // import chat from './assets/chat.gif';
 import Microservice from './service/Microservice';
@@ -11,6 +13,7 @@ import Landing from './service/Landing';
 import TopNavbar from './component/TopNavbar';
 import Headroom from 'react-headroom';
 import TermCondition from './pages/TermCondition';
+import PR from './pages/PR';
 // import Services from './service/Services';
 
 // Lazy-loaded components
@@ -55,6 +58,7 @@ const App = () => {
         <Suspense fallback={isLoading ? <Loader /> : null}>
 
           <Routes>
+            <Route path="*" element={<Navigate to="/" />} />
             <Route path="/" element={<Home />} />
             <Route path="services" element={<Services />} />
             <Route path="nft-marketplace-development" element={<NFTDev />} />
@@ -71,6 +75,7 @@ const App = () => {
             <Route path="PopupX2" element={<PopupX2 />} />
             <Route path="Landing" element={<Landing />} />
             <Route path="TermCondition" element={<TermCondition />} />
+            <Route path="PR" element={<PR />} />
           </Routes>
         </Suspense>
       </BrowserRouter>

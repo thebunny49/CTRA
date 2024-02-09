@@ -34,9 +34,6 @@ const Home = () => {
         <meta name="twitter:title" content="Blockchain Development Company in India - Cryptora" />
         <meta name="twitter:description" content="Cryptora is a leading company in blockchain development services including Token Development, Crypto Wallet and Consulting Services." />
         <link rel="canonical" href="https://cryptora.tech" />
-
-
-
       </Helmet>
 
       <div style={{ overflowX: "hidden" }} >

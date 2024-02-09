@@ -1,6 +1,9 @@
- 
+
 import "../styles/C-Service.css"
 import Footer from "../component/Footer"
+
+import { Helmet } from "react-helmet";
+// import { useEffect, useState } from "react";
 
 function Services() {
 
@@ -46,13 +49,17 @@ function Services() {
 
     "cardheading9": "NFT Game Development",
     "cardparagraph9": "Cryptora is the premier NFT game development company that can assist you in launching your gaming platform based on bespoke blockchain and NFTs.",
-    
+
   }
+
   return (
     <>
       {/* <TopNavbar /> */}
+      <Helmet>
+        <title> Services- cryptora</title>
+      </Helmet>
 
-      
+
       <div id='CSsec2' className="container">
         <div id="CSleft">
           <p className='CSsmall'>{data.small2}</p>
@@ -78,7 +85,7 @@ function Services() {
         </div>
       </div>
 
-      
+
 
       <div id="CS5main" className='container'>
         <p className='CS5small'>{data.small3}</p>
