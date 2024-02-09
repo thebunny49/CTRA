@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
-  z-index: 1;
+  z-index: 0;
     background-position: center;
     justify-content: center;
     align-items: center;
@@ -58,8 +58,7 @@
    
   }
   .logo-container2 {
-    top: 0;
-     left: 0;
+     
      width: 80px;
      height: 80px;
      position: relative;

@@ -8,13 +8,14 @@
   /* margin: 50px; */
 }
 
-#conbg{
+#conbg {
   position: absolute;
   z-index: -1;
   width: 100%;
   height: 50vh;
   /* margin: -100px !important; */
 }
+
 .contactsec1 {
   display: flex;
   flex-direction: column;
@@ -43,7 +44,8 @@ p {
 
 .contactpara {
   font-weight: 900;
-  font-size: 50px;
+  font-size: 40px;
+  line-height: normal;
 }
 
 .contact-card {
@@ -140,7 +142,7 @@ p {
 }
 
 .contact-number:hover::before {
-  transform: rotate(-180deg);
+  transform: scale(1.1);
 }
 
 .contact-number:active::before {
@@ -202,7 +204,7 @@ p {
 }
 
 .contact-email:hover::before {
-  transform: rotate(-180deg);
+  transform: scale(1.1);
 }
 
 .contact-email:active::before {
@@ -265,7 +267,7 @@ p {
 }
 
 .contact-number3:hover::before {
-  transform: rotate(-180deg);
+  transform: scale(1.1);
 }
 
 .contact-number3:active::before {
@@ -274,7 +276,7 @@ p {
 
 .si {
   display: flex;
- 
+
   flex-direction: row;
   /* gap: 10px; */
 }
@@ -283,7 +285,8 @@ p {
   display: flex;
   min-height: 70vh;
 }
-.contact-left{
+
+.contact-left {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -291,6 +294,7 @@ p {
   gap: 40px;
   width: 50%;
 }
+
 .contact-right {
   /* background-color: red; */
   /* height: 100px; */
@@ -312,7 +316,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-   
+
   margin: auto;
 
   padding: 20px;
@@ -398,73 +402,79 @@ form {
 
 @media (max-width:1000px) {
   .contact-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 0px;
-      gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
   }
+
   .contact1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      border: 1px solid white;
-      border-radius: 10px;
-      padding: 25px 50px;
-      width: 72.33%;
-      height: 100%;
-      min-height: 400px;
-      gap: 20px;
-    }
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 25px 50px;
+    width: 72.33%;
+    height: 100%;
+    min-height: 400px;
+    gap: 20px;
+  }
+}
 
 @media (max-width:768px) {
-   
+
   .maincontact {
     display: flex;
     flex-direction: column;
-     /* align-items: center; */
+    /* align-items: center; */
     min-height: 100vh;
     gap: 40px;
     /* width: 100vw; */
   }
-    .contact-left {
-      display: flex;
-      flex-direction: column;
-      /* align-items: center; */
-      justify-content: center;
-      gap: 40px;
-      width: 100%;
-    }
-  .contact-right{
+
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+  }
+
+  .contact-right {
     /* display: flex; */
     height: fit-content;
     width: fit-content;
     align-self: center;
   }
-    #contact-form {
-      width: 80vw;
-      
-    }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"] {
-      width: 85%;
-      padding: 10px;
-  
-      /* border: 1px solid #ccc; */
-      border-radius: 12px;
-      font-size: 16px;
-      border: none;
-      /* Adjust font family, color, and spacing as needed */
-    }
-        textarea{
-          width: 85%;
-          justify-content: center;
-        }
+  #contact-form {
+    width: 80vw;
+
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 85%;
+    padding: 10px;
+
+    /* border: 1px solid #ccc; */
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    /* Adjust font family, color, and spacing as needed */
+  }
+
+  textarea {
+    width: 85%;
+    justify-content: center;
+  }
+
   #inputs {
     display: flex;
     /* flex-wrap: wrap; */

@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import '../styles/Section9.css'
 import P1 from '../assets/logo/pho1.svg'
-import P2 from '../assets/logo/pho2.svg'
+// import P2 from '../assets/logo/pho2.svg'
 import P3 from '../assets/logo/pho3.svg'
 import P4 from '../assets/logo/pho4.svg'
 import P5 from '../assets/logo/pho5.svg'
@@ -11,8 +11,8 @@ import P8 from '../assets/logo/pho8.svg'
 import P9 from '../assets/logo/pho9.svg'
 import P10 from '../assets/logo/pho10.svg'
 import P11 from '../assets/logo/pho11.svg'
-import P12 from '../assets/logo/pho12.svg'
-import contact from '../assets/contact.png'
+// import P12 from '../assets/logo/pho12.svg'
+// import contact from '../assets/contact.png'
 import PopupX from "../pages/PopupX"
 
 
@@ -33,29 +33,29 @@ const Section9 = () => {
               <p>Tell Us About Your Project</p>
               <br />
 
-              <div class="form__group field">
+              <div className="form__group field">
 
-                <input type="input" class="form__field" placeholder="Name" required="" />
-                <label for="name" class="form__label">Name</label>
-
-              </div>
-              <div class="form__group field">
-
-                <input type="input" class="form__field" placeholder="Name" required="" />
-                <label for="name" class="form__label">Email</label>
+                <input type="input" className="form__field" placeholder="Name" required="" />
+                <label for="name" className="form__label">Name</label>
 
               </div>
-              <div class="form__group field">
+              <div className="form__group field">
 
-                <input type="input" class="form__field" placeholder="Name" required="" />
-                <label for="name" class="form__label">Mobile Number</label>
+                <input type="input" className="form__field" placeholder="Name" required="" />
+                <label for="name" className="form__label">Email</label>
 
               </div>
-              <div class="form__group field">
+              <div className="form__group field">
+
+                <input type="input" className="form__field" placeholder="Name" required="" />
+                <label for="name" className="form__label">Mobile Number</label>
+
+              </div>
+              <div className="form__group field">
 
 
-                <label for="name" class="form__label">Select Country</label>
-                <select class="form-control form__field form_control_select select2country_popup valid" name="country" id="footer_popup_country" aria-label="Country" aria-invalid="false">
+                <label for="name" className="form__label">Select Country</label>
+                <select className="form-control form__field form_control_select select2country_popup valid" name="country" id="footer_popup_country" aria-label="Country" aria-invalid="false">
 
                   <option value="Afghanistan" id="AF">Afghanistan</option>
                   <option value="Albania" id="AL">Albania</option>
@@ -298,15 +298,15 @@ const Section9 = () => {
                   <option value="Zimbabwe" id="ZW">Zimbabwe</option>
                 </select>
               </div>
-              <div class="form__group field">
+              <div className="form__group field">
 
-                <input type="input" class="form__field" placeholder="Name" required="" />
-                <label for="name" class="form__label">Subject</label>
+                <input type="input" className="form__field" placeholder="Name" required="" />
+                <label for="name" className="form__label">Subject</label>
 
               </div>
               <br /><br />
-              <div class="wrap">
-                <button class="s9button">Submit</button>
+              <div className="wrap">
+                <button className="s9button">Submit</button>
               </div>
             </div>
           </div>
@@ -314,11 +314,11 @@ const Section9 = () => {
       </div>
       <div className='container s10main' style={{ padding: 0 }}>
 
-        <header class="text-center pb-5 text-white" style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
-          <h1 class="display-4">Get Access To
+        <header className="text-center pb-5 text-white" style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
+          <h1 className="display-4">Get Access To
             Business & Crypto Media</h1>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
-            <p class="font-italic det mb-1"  >With a robust and adaptable technology foundation, we empower our teams and clients to push boundaries, embrace creativity, and pioneer the future. Join us on this exciting journey, where innovation knows no bounds, and together, we'll shape a world defined by limitless possibilities.</p>
+            <p className="font-italic det mb-1"  >With a robust and adaptable technology foundation, we empower our teams and clients to push boundaries, embrace creativity, and pioneer the future. Join us on this exciting journey, where innovation knows no bounds, and together, {"we'll"} shape a world defined by limitless possibilities.</p>
 
           </div>
         </header>

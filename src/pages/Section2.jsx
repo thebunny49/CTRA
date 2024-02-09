@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../styles/Section2.css'
-import Waves from '../assets/waves.mp4'
+// import Waves from '../assets/waves.mp4'
 import AOS from 'aos';
 import Image1 from '../assets/index2.mp4'
 import Bullet from '../assets/bullet.svg'
@@ -30,7 +30,7 @@ function Section2() {
                         <div id='section2' className="main2">
 
 
-                                <div className='sec2left' style={{ zIndex: 1 }} >
+                                <div className='sec2left'   >
                                         <motion.p initial={{ scale: 0.9, x: -50, opacity: 0 }} whileInView={{ scale: 1, x: 0, opacity: 1 }}
                                                 transition={{ ease: "easeIn", duration: 0.4 }} className='s3heading'>About Us</motion.p>
                                         <motion.h1

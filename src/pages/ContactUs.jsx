@@ -1,14 +1,34 @@
 // import React from 'react'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 import '../styles/ContactUs.css'
-import TopNavbar from '../component/TopNavbar'
+
 import cuimg from "/asset.svg"
 import conbg from "/src/assets/contact-bg.jpg"
+import { Helmet } from 'react-helmet';
 
 
 const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_t0v8pce', 'template_g5zwo2h', form.current, 'CiV-Bx9xip5ib_tUA')
+      .then((result) => {
+        console.log(result.text);
+        console.log("massage send")
+        e.target.reset();
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+
   return (
     <>
-      <TopNavbar />
+      
+
       <img src={conbg} id='conbg' alt="" />
       <div className="contactmain container">
         <div className="contactsec1">
@@ -16,8 +36,8 @@ const ContactUs = () => {
             <p>Contact Us</p>
           </div>
           <p className='contactpara'>Have questions or want to get in touch with us?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, at id? Nihil quis exercitationem fugiat.</p>
-
+          <p>Please feel free to contact us if you have any questions, feedback, or inquiries. Our dedicated team is here to assist you and ensure that your experience with us is positive and satisfactory. You can reach out to us via the provided contact form, email, or phone number. We value your input and are committed to addressing your needs promptly. </p>
+          <p>Blockchain consulting services provide expert guidance on implementing and leveraging blockchain technology specialize in NFT, web3, software development, ledger technology and app development. Thank you for choosing us and we look forward to hearing from you soon!</p>
         </div>
 
 
@@ -35,7 +55,7 @@ const ContactUs = () => {
             </div>
             <div className="contact1">
               <img src={cuimg} alt="" />
-              <p className='cuhead'>Call Us</p>
+              <p className='cuhead'>Connect Us</p>
               <div className='contact-no' style={{ flexDirection: "column" }}>
 
 
@@ -59,44 +79,31 @@ const ContactUs = () => {
 
         <div className="maincontact">
           <div className="contact-left">
-            {/* <div className="contactbutton">
-              <p>Contact Us</p>
-            </div> */}
+
             <p className='detail-head' style={{ fontSize: 40 }}>Contact Form</p>
             <p className="mcpara" style={{ fontSize: 25 }}>Fill out the form below, and one of our frendly team member will get back to you shortly.</p>
             <div className="socialm">
               <p className="socialhead">Follow us on Social Media</p>
-              {/* <div className="si">
-                <img src={fb} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
-                <img src={fb} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
-                <img src={fb} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
-              </div> */}
+
             </div>
           </div>
 
           <div className="contact-right">
 
-            <form action=" " method="post" id='contact-form'>
+            <form ref={form} onSubmit={sendEmail} id='contact-form'>
               <h1>Send Us a Message</h1>
               <div id="inputs">
 
-                <input type="text" id="name" name="name" placeholder='Name' required />
+                <input type="text" id="name" name="from_name" placeholder='Name' required />
 
-                <input type="email" id="email" name="email" placeholder='Email' required />
+                <input type="email" id="email" name="from_email" placeholder='Email' required />
 
-                <input type="tel" id="phone" placeholder='Phone' name="phone" />
+                <input type="tel" id="phone" placeholder='Phone' name="from_phone" required />
 
-                <input type="text" id="budget" placeholder='Budget' name="budget" />
-                <textarea id="message" name="message" rows="5" placeholder='Maggage' required></textarea>
+                <input type="text" id="budget" placeholder='Budget' name="from_budget" required />
+                <textarea id="message" name="message" rows="5" placeholder='Message' required></textarea>
               </div>
-
-
-
-
-
-
-
-              <button  type="submit">Submit</button>
+              <button className=' btn btn-dark d-flex justify-content-center align-items-center  ' style={{ height: 50 }} type="submit">Submit</button>
             </form>
 
           </div>

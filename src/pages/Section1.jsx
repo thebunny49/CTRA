@@ -1,15 +1,15 @@
-import React from 'react'
+
 import '../styles/Section1.css'
 import '../styles/Button2.css'
 import '../styles/Social.css'
-import Waves from '../assets/bg2.mp4'
+const Waves = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707462030/Cryptora%20Videos/ooz2kxm1zprvf0ybuug4.mp4'
 import Arrow from '../assets/down.gif'
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 function Section1() {
   return (
     <>
       <div className="main">
-        <video autoPlay loop muted playsInline className='video'>
+        <video autoPlay loop muted playsInline className='video v1'>
           <source src={Waves} type='video/mp4' />
 
         </video>
@@ -39,14 +39,14 @@ function Section1() {
         <div className="know2" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <div className="logo-container2 know2" >
             <img src={Arrow} className='arimg2' alt="" />
-            <div class="logo-container">
+            <div className="logo-container">
               <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
-                <a href="#section2"><path id="circlePath" fill="none" stroke-width="4" d="
+                <a href="#section2"><path id="circlePath" fill="none" strokeWidth="4" d="
           M 10, 50  
           a 40,40 0 1,1 80,0  
           a 40,40 0 1,1 -80,0  
-        " /></a> 
-                <text id="text" font-size="12" font-weight="bold" fill="white" >
+        " /></a>
+                <text id="text" fontSize="12" fontWeight="bold" fill="white" >
                   <textPath id="textPath" style={{ color: 'white' }} href="#circlePath" >SCROLL DOWN SCROLL DOWN SCROLL DOWN  </textPath>
                 </text>
               </svg>

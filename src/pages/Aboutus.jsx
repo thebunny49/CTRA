@@ -1,8 +1,10 @@
 import Footer from "../component/Footer"
-import TopNavbar from "../component/TopNavbar"
+ 
 import "../styles/Aboutus.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "@itseasy21/react-elastic-carousel";
+import { Link } from "react-router-dom";
+
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
@@ -28,7 +30,7 @@ const Aboutus = () => {
     }
     return (
         <>
-            <TopNavbar />
+             
             <div id="ABT-hero">
 
                 <div id='ABTsec2' className="container">
@@ -37,9 +39,9 @@ const Aboutus = () => {
                         <p className='ABTheading'>{data.heading2}</p>
                         <p className='ABTparagraph'>{data.paragraph2}</p>
                         <div className='ABTbutton'>
-                            <button className='dexbutton'>
+                            <Link   to='/contact-us' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Contact
-                            </button>
+                            </Link>
 
 
 
@@ -59,10 +61,13 @@ const Aboutus = () => {
                 <div id='ABTsec3' className="container">
                     <div id="ABTright3">
                         <div className='ABTright3'>
-                            <img src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="" />
+                            <picture>
+                                {/* Source for browsers that support the "srcset" attribute */}
+                                <source srcSet="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" type="image/gif" />
 
-
-
+                                {/* Fallback source for browsers that do not support "srcset" */}
+                                <img id="ABTgif" src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="" />
+                            </picture>
                         </div>
                     </div>
                     <div id="ABTleft3">
@@ -76,12 +81,12 @@ const Aboutus = () => {
                         <p className='ABTparagraph4'>{data.paragraphx2}</p>
 
                         <div className='ABTbutton'>
-                            <button className='dexbutton'>
+                            <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Expert Consultantly
-                            </button>
-                            <button className='dexbutton'>
+                            </a>
+                            <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Download Broucher
-                            </button>
+                            </a>
 
 
                         </div>

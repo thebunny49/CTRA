@@ -27,17 +27,17 @@
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    z-index: 1;
+    z-index: 0;
 }
 
 .ABTsmall {
 
     font-family: 'Manrope', sans-serif;
     text-align: left;
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     width: 100%;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 19.2px;
     /* 120% */
     letter-spacing: 1px;
@@ -217,9 +217,11 @@
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
-    z-index: 1;
+    z-index: 0;
 }
-
+#ABTgif{
+    border-radius: 10   px;
+}
 #ABTright3 {
 
     width: 50%;
@@ -234,7 +236,7 @@
 
     width: "100%";
     height: "fit-content";
-    border-radius: 10px;
+    
 }
 #carousel{
     /* width: 90vw; */
@@ -297,7 +299,7 @@
 
         height: fit-content;
         width: 90vw;
-        border-radius: 10px;
+        /* border-radius: 10px; */
 
 
     }

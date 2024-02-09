@@ -12,7 +12,10 @@
   position: fixed;
   z-index: 99;
   top: 30%;
+   
   left: 100%;
+   
+  
 }
 .prshare.blwhatsapp,
 .prshare.blwhatsapp h3,
@@ -43,6 +46,7 @@
   
 }
 .prshare {
+  overflow: hidden;
   display: block;
   margin-top: 6px;
   min-width: 150px;

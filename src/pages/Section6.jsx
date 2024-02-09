@@ -363,12 +363,12 @@ const Section6 = () => {
           <h5 className="card-text">Pitch Desk</h5>
           <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
         </a>
-        <a target='blank' id='card' href={pdf2}>
 
+        <a target='blank' id='card' href={pdf2}>
           <h5 className="card-text">Service Catalogue</h5>
           <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
-
         </a>
+        
         <a target='blank' id='card' href={pdf3}>
 
           <h5 className="card-text">Product Catalogue</h5>

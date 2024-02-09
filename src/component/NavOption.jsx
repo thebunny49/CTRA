@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import '../styles/NavOption.css'
 function NavOption() {
   return (

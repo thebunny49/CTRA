@@ -1,12 +1,14 @@
-import React from 'react'
+
 import './Crypto.css'
-import TopNavbar from '../component/TopNavbar'
+
 import './Service.css'
 import Footer from '../component/Footer'
 import token1 from '../assets/token1.png'
 import token2 from '../assets/token2.svg'
-import token3 from '../../public/Crypto/token1.jpg'
-import Waves from '../assets/crypto1.mp4'
+import coinvi from '../assets/order2.mp4'
+import { Helmet } from 'react-helmet'
+// import token3 from '../../public/Crypto/token1.jpg'
+// import Waves from '../assets/crypto1.mp4'
 const Crypto = () => {
   const data = {
     // nftsec1
@@ -75,8 +77,29 @@ const Crypto = () => {
   }
   return (
     <>
+      <Helmet>
+        <title> Crypto Token Development Company - Cryptora </title>
+
+        <meta name='description' content=' Trusted crypto token development company, our expert developers helps businesses quickly create top-tier tokens on any blockchain network.' />
+        <meta name="keywords" content="crypto token development company, token development, token development services" />
+        <link rel="canonical" href="https://cryptora.tech/token-development" />
+        <meta property="og:title" content="Crypto Token Development Company - Cryptora" />
+        <meta property="og:url" content="https://cryptora.tech/token-development" />
+        <meta property="og:description" content="Trusted crypto token development company, our expert developers helps businesses quickly create top-tier tokens on any blockchain network. " />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="https://cryptora.tech/token-development" />
+        <meta name="twitter:title" content="Crypto Token Development Company - Cryptora" />
+        <meta name="twitter:description" content="Trusted crypto token development company, our expert developers helps businesses quickly create top-tier tokens on any blockchain network." />
+
+
+      </Helmet>
+
       <div id="cryptobody">
-        <TopNavbar />
+        {/* <TopNavbar /> */}
+        <video autoPlay loop muted playsInline className='video'>
+          <source src={coinvi} type='video/mp4' />
+
+        </video>
 
         <div className='cryptosec1main' >
           <div className='overlay01'></div>
@@ -87,12 +110,12 @@ const Crypto = () => {
               <p className='cryptopara'>{data.para1}</p>
               <br />
               <div className='cryptobutton'>
-                <button className='dexbutton'>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button1}
-                </button>
-                <button className='dexbutton'>
+                </a>
+                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                   {data.button2}
-                </button>
+                </a>
 
               </div>
             </div>
@@ -115,9 +138,9 @@ const Crypto = () => {
             <p className='cryptoparagraph'>{data.paragraph2}</p>
             <br />
             <div className='cryptobutton'>
-              <button className='dexbutton'>
+              <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -137,58 +160,58 @@ const Crypto = () => {
             {data.paragraph3}</p>
         </div>
         <div id='cryptosec3'>
-          <div class="cryptocard">
-            <div class="cryptocontent">
+          <div className="cryptocard">
+            <div className="cryptocontent">
               <img src='/Crypto/cryptoc1.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading1}
-              </p><p class="para">{data.cardparagraph1}</p>
+              <p className="heading">{data.cardheading1}
+              </p><p className="para">{data.cardparagraph1}</p>
 
             </div>
           </div>
-          <div class="cryptocard">
-            <div class="cryptocontent">
+          <div className="cryptocard">
+            <div className="cryptocontent">
               <img src='/Crypto/cryptoc2.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading2}
-              </p><p class="para">
+              <p className="heading">{data.cardheading2}
+              </p><p className="para">
                 {data.cardparagraph2}       </p>
 
             </div>
           </div>
-          <div class="cryptocard">
-            <div class="cryptocontent">
+          <div className="cryptocard">
+            <div className="cryptocontent">
               <img src='/Crypto/cryptoc3.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading3}
-              </p><p class="para">
+              <p className="heading">{data.cardheading3}
+              </p><p className="para">
                 {data.cardparagraph3}
               </p>
 
             </div>
           </div>
-          <div class="cryptocard">
-            <div class="cryptocontent">
+          <div className="cryptocard">
+            <div className="cryptocontent">
               <img src='/Crypto/cryptoc4.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading4}
-              </p><p class="para">
+              <p className="heading">{data.cardheading4}
+              </p><p className="para">
                 {data.cardparagraph4}
               </p>
 
             </div>
           </div>
-          <div class="cryptocard">
-            <div class="cryptocontent">
+          <div className="cryptocard">
+            <div className="cryptocontent">
               <img src='/Crypto/cryptoc5.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading5}
-              </p><p class="para">
+              <p className="heading">{data.cardheading5}
+              </p><p className="para">
                 {data.cardparagraph5}
               </p>
 
             </div>
           </div>
-          <div class="cryptocard">
-            <div class="cryptocontent">
+          <div className="cryptocard">
+            <div className="cryptocontent">
               <img src='/Crypto/cryptoc6.png' style={{ width: 50, height: 50 }} />
-              <p class="heading">{data.cardheading6}
-              </p><p class="para">
+              <p className="heading">{data.cardheading6}
+              </p><p className="para">
                 {data.cardparagraph6}
               </p>
 
@@ -204,9 +227,9 @@ const Crypto = () => {
             <p className='cryptoparagraph'>{data.paragraph4}</p>
             <br />
             <div className='cryptobutton'>
-              <button className='dexbutton'>
+              <a href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                 Talk to Expert
-              </button>
+              </a>
 
 
             </div>
@@ -227,65 +250,65 @@ const Crypto = () => {
           </p>
         </div>
         <div id='cryptosec5' className="container">
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Crypto/crypto1.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title1}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Crypto/crypto1.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title1}</div>
+                <div className="n5hover_content">
                   <p> {data.content1}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Crypto/crypto2.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title2}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Crypto/crypto2.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title2}</div>
+                <div className="n5hover_content">
                   <p>{data.content2}</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Crypto/crypto4.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title3}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Crypto/crypto4.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title3}</div>
+                <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
               </div>
             </div>
           </section>
 
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Crypto/crypto41.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title4}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Crypto/crypto41.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title4}</div>
+                <div className="n5hover_content">
                   <p>{data.content4}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Crypto/crypto5.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title5} </div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Crypto/crypto5.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title5} </div>
+                <div className="n5hover_content">
                   <p>{data.content5}</p>      </div>
               </div>
             </div>
           </section>
-          <section class="n5container">
-            <div class="n5card">
-              <div class="n5content">
-                <p class="n5logo"><img src="/Crypto/crypto6.png" alt="" style={{ width: 50 }} /></p>
-                <div class="n5h6">{data.title6}</div>
-                <div class="n5hover_content">
+          <section className="n5container">
+            <div className="n5card">
+              <div className="n5content">
+                <p className="n5logo"><img src="/Crypto/crypto6.png" alt="" style={{ width: 50 }} /></p>
+                <div className="n5h6">{data.title6}</div>
+                <div className="n5hover_content">
                   <p>{data.content6}</p>      </div>
               </div>
             </div>

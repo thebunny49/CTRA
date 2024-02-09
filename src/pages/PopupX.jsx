@@ -1,10 +1,31 @@
 
-import "../styles/PopupX2.css"
-import fb from "../assets/logo/pho1.svg"
+
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+import wa from "../assets/wa.png"
+import x from "../assets/x.png"
+import tg from "../assets/tg.png"
+// import ig from "../assets/ig.png"
+
+import '../styles/Popup.css'
 
 
+const PopupX = () => {
+  const form = useRef();
 
-const popup = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_t0v8pce', 'template_g5zwo2h', form.current, 'CiV-Bx9xip5ib_tUA')
+      .then((result) => {
+        console.log(result.text);
+        console.log("massage send")
+        e.target.reset();
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
   return (
     <>
 
@@ -25,19 +46,19 @@ const popup = () => {
 
             <div className="contact-right">
 
-              <form action=" " method="post" id='contact-form'>
+              <form ref={form} onSubmit={sendEmail} method="post" id='contact-form'>
                 <h1>Get A Live Demo</h1>
                 <h4 style={{ fontSize: "17px", fontWeight: "500" }}>Lets sky rocket your Dream project togather</h4>
                 <div id="inputs">
 
-                  <input type="text" id="name" name="name" placeholder='Name' required />
+                  <input type="text" id="name" name="from_name" placeholder='Name' required />
 
-                  <input type="email" id="email" name="email" placeholder='Email' required />
+                  <input type="email" id="email" name="from_email" placeholder='Email' required />
 
-                  <input type="tel" id="phone" placeholder='Phone' name="phone" />
+                  <input type="tel" id="phone" placeholder='Phone' name="from_phone" required />
 
 
-                  <select id="budget" name="menu">
+                  <select id="budget" name="from_location" required>
                     <option value="" disabled selected>Select Your Country</option>
                     <option value="Afghanistan" id="AF">Afghanistan</option>
                     <option value="Albania" id="AL">Albania</option>
@@ -91,7 +112,7 @@ const popup = () => {
                     <option value="Congo, the Democratic Republic of the" id="CD">Congo, the Democratic Republic of the</option>
                     <option value="Cook Islands" id="CK">Cook Islands</option>
                     <option value="Costa Rica" id="CR">Costa Rica</option>
-                    <option value="Cote D'Ivoire" id="CI">Cote D'Ivoire</option>
+                    <option value="Cote D'Ivoire" id="CI">Cote {"D'Ivoire"} </option>
                     <option value="Croatia" id="HR">Croatia</option>
                     <option value="Cuba" id="CU">Cuba</option>
                     <option value="Cyprus" id="CY">Cyprus</option>
@@ -137,7 +158,7 @@ const popup = () => {
                     <option value="Hong Kong" id="HK">Hong Kong</option>
                     <option value="Hungary" id="HU">Hungary</option>
                     <option value="Iceland" id="IS">Iceland</option>
-                    <option value="India" id="IN">India</option>
+                    <option value="India" id="IN" selected>India</option>
                     <option value="Indonesia" id="ID">Indonesia</option>
                     <option value="Iran, Islamic Republic of" id="IR">Iran, Islamic Republic of</option>
                     <option value="Iraq" id="IQ">Iraq</option>
@@ -154,7 +175,7 @@ const popup = () => {
                     <option value="South Korea" id="KR">South Korea</option>
                     <option value="Kuwait" id="KW">Kuwait</option>
                     <option value="Kyrgyzstan" id="KG">Kyrgyzstan</option>
-                    <option value="Lao People's Democratic Republic" id="LA">Lao People's Democratic Republic</option>
+                    <option value="Lao People's Democratic Republic" id="LA">Lao {"People's"} Democratic Republic</option>
                     <option value="Latvia" id="LV">Latvia</option>
                     <option value="Lebanon" id="LB">Lebanon</option>
                     <option value="Lesotho" id="LS">Lesotho</option>
@@ -281,28 +302,34 @@ const popup = () => {
 
                   </select>
 
-                  <textarea id="message" name="message" rows="5" placeholder='Maggage' required></textarea>
+                  <textarea id="message" name="message" rows="5" placeholder='Message' required></textarea>
                 </div>
 
-                <button id="po-sub" type="submit">Submit</button>
+                <button className=' btn btn-dark d-flex justify-content-center align-items-center  ' style={{ height: 50 }} id="po-sub" type="submit">Submit</button>
                 <h3 style={{ fontSize: 15, textAlign: "center" }} >Protect your data is our #1 priority Your information is safe with us </h3>
-                
+
                 <div className="si2">
-                  <div style={{ display: "flex", flexDirection: "column", justifyContent:"center", alignItems:"center"}} >
-                    <img src={fb} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                  <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }} >
+                    <img src={x} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                    <a style={{ textDecoration: "none", color: "white" }} href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcryptora_tech" target='blank'>
+                      <p>cryptora_Community</p>
+                    </a>
+                  </div>
+                  <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
 
-                    <p>cryptora.tech</p>
+                    <img src={wa} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                    <a style={{ textDecoration: "none", color: "white" }} href="https://bit.ly/3GnnFUJ" target='blank'>
+                      <p>8770632170</p>
+                    </a>
 
                   </div>
                   <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
 
-                    <img src={fb} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
-                    <p>8770632170</p>
-                  </div>
-                  <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                    <img src={tg} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                    <a style={{ textDecoration: "none", color: "white" }} href="https://t.me/Cryptoracommunity" target='blank'>
 
-                    <img src={fb} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
-                    <p>Cryptora_text</p>
+                      <p>Cryptora_text</p>
+                    </a>
                   </div>
                 </div>
               </form>
@@ -322,4 +349,4 @@ const popup = () => {
   )
 }
 
-export default popup
+export default PopupX

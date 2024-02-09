@@ -1,10 +1,21 @@
-
-import React from 'react'
-import TopNavbar from '../component/TopNavbar'
+ 
 import './Service.css'
 import './CryptoWallet.css'
 import Footer from '../component/Footer'
-import Waves from '../../public/Decentralized/dex_3.mp4'
+import cw1 from '../assets/cryptowallet/cw1.png'
+import cw2 from '../assets/cryptowallet/cw2.png'
+import cw3 from '../assets/cryptowallet/cw3.png'
+import cw4 from '../assets/cryptowallet/cw4.png'
+import cw5 from '../assets/cryptowallet/cw5.png'
+import cw6 from '../assets/cryptowallet/cw6.png'
+import cw7 from '../assets/cryptowallet/cw7.png'
+import cw8 from '../assets/cryptowallet/cw8.png'
+import cw9 from '../assets/cryptowallet/cw9.png'
+import cwback from '../assets/cryptowallet/cwback.mp4'
+import cwimg from '../assets/cryptowallet/cwimg.png'
+
+
+
 const CryptoWallet = () => {
 
     const data = {
@@ -79,11 +90,11 @@ const CryptoWallet = () => {
     return (
         <>
             <div id="cwbody">
-                <TopNavbar />
+                
 
                 <div className='cwsec1main' >
                     <video autoPlay playsInline muted className='cwvideo'>
-                        <source src="/src/assets/cryptowallet/cwback.mp4" type='video/mp4' />
+                        <source src={cwback} type='video/mp4' />
 
                     </video>
                     <div className='overlay01'></div>
@@ -94,12 +105,12 @@ const CryptoWallet = () => {
                             <p className='cwpara'>{data.para1}</p>
                             <br />
                             <div className='cwbutton'>
-                                <button className='dexbutton'>
+                                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                     {data.button1}
-                                </button>
-                                <button className='dexbutton'>
+                                </a>
+                                <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                     {data.button2}
-                                </button>
+                                </a>
 
                             </div>
                         </div>
@@ -120,18 +131,16 @@ const CryptoWallet = () => {
                         <p className='cwparagraph'>{data.paragraph2}</p>
                         <br />
                         <div className='cwbutton'>
-                            <button className='dexbutton'>
+                            <a target='blank' href='https://bit.ly/3GnnFUJ' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Talk to Expert
-                            </button>
+                            </a>
 
 
                         </div>
                     </div>
                     <div id="cwright">
                         <div className='cwrright'>
-                            <img src="/src/assets/cryptowallet/cwimg.png" style={{ width: "100%", height: "100%" }} alt="" />
-
-
+                            <img src={cwimg} style={{ width: "100%", height: "100%" }} alt="" />
                         </div>
                     </div>
                 </div>
@@ -146,8 +155,11 @@ const CryptoWallet = () => {
 
                 <div id='cwsec3'>
                     <div className="cwcard">
+                            
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw1.png' style={{ width: 50, height: 50 }} />
+                            
+                            {/* <img src={cw1} style={{ width: 50, height: 50 }} /> */}
+                            <img src={cw1} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading1}
                             </p><p className="para">{data.cardparagraph1}</p>
 
@@ -155,7 +167,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="cwcard">
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw2.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw2} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading2}
                             </p><p className="para">
                                 {data.cardparagraph2}       </p>
@@ -164,7 +176,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="cwcard">
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw3.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw3} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading3}
                             </p><p className="para">
                                 {data.cardparagraph3}
@@ -174,7 +186,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="cwcard">
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw4.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw4} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading4}
                             </p><p className="para">
                                 {data.cardparagraph4}
@@ -184,7 +196,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="cwcard">
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw5.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw5} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading5}
                             </p><p className="para">
                                 {data.cardparagraph5}
@@ -194,7 +206,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="cwcard">
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw6.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw6} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading6}
                             </p><p className="para">
                                 {data.cardparagraph6}
@@ -204,7 +216,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="cwcard">
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw7.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw7} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading7}
                             </p><p className="para">
                                 {data.cardparagraph7}
@@ -214,7 +226,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="cwcard">
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw8.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw8} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading8}
                             </p><p className="para">
                                 {data.cardparagraph8}
@@ -224,7 +236,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="cwcard">
                         <div className="cwcontent">
-                            <img src='/src/assets/cryptowallet/cw9.png' style={{ width: 50, height: 50 }} />
+                            <img src={cw9} style={{ width: 50, height: 50 }} />
                             <p className="heading">{data.cardheading9}
                             </p><p className="para">
                                 {data.cardparagraph9}

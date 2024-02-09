@@ -1,4 +1,4 @@
-#nftbody{
+#nftbody {
   margin: 0px;
   width: 100%;
   height: 100%;
@@ -7,22 +7,25 @@
 
 
 }
-#nftsec1{
-width:100%;
-height: 100vh;
-display: flex;
-flex-direction: row;
 
-gap: 20px;
-padding: 20px;  
-}
-.nftsec1main{
+#nftsec1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
 
-overflow: hidden;
-position: relative;
+  gap: 20px;
+  padding: 20px;
 }
-#nftsec2{
-  width:100%;
+
+.nftsec1main {
+
+  overflow: hidden;
+  position: relative;
+}
+
+#nftsec2 {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -33,27 +36,30 @@ position: relative;
   margin-top: 40px;
   margin-bottom: 5%;
 }
-#nftsec3{
-  width:100%;
+
+#nftsec3 {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
   gap: 20px;
-  
+
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 50px;
 }
-#nftsec4{
-  width:100%;
+
+#nftsec4 {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
   gap: 20px;
   padding: 20px;
 }
-#nftsec5{
-  width:100%;
+
+#nftsec5 {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -62,110 +68,129 @@ position: relative;
   flex-wrap: wrap;
   padding: 20px;
 }
-#nftleft{
-width:50%;
-height: 90%;
-display: flex;
-justify-content: center;
-align-items: start;
-flex-direction: column;
+
+#nftleft {
+  width: 50%;
+
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
 }
-#s5main{
-  width:100%;
+
+#s5main {
+  width: 100%;
   height: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding:50px 0px;
-  }
-#nftright{
-
-width:50%;
-height: 90%;
-display: flex;
-justify-content: flex-end;
-align-items:flex-end;
-overflow: hidden;
+  padding: 50px 0px;
 }
-.nftvideo{
-      z-index: 0;
+
+#nftright {
+
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.nftvideo {
+  z-index: 0;
   width: 100%;
   height: 25.69em;
- 
- 
- 
-}
-.nftvideo2{
-z-index: 0;
-width: 100%;
-height: 25.69em;
-transform: scale(1.3);
 
 
 
 }
-.nfthead{
+
+.nftvideo2 {
+  z-index: 0;
+  width: 100%;
+  height: 25.69em;
+  transform: scale(1.3);
+
+
+
+}
+
+.nfthead {
   font-size: 50px;
   font-weight: 700;
-  z-index: 1;
-  font-family: 'Manrope', sans-serif;}
-.nftheading{
-  color: #ffffff;
-font-family: 'Manrope', sans-serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-width: 100%;
-line-height: 52px; /* 130% */
-text-transform: capitalize;
+  z-index: 0;
+  font-family: 'Manrope', sans-serif;
 }
-.nftsmall{
-  color: #eb5722;
-font-family: 'Manrope', sans-serif;
-text-align: left;
-font-size: 16px;
-font-style: normal;
-width: 100%;
-font-weight: 500;
-line-height: 19.2px; /* 120% */
-letter-spacing: 1px;
-text-transform: uppercase;
-}
-.s5small{
-  color: #eb5722;
-font-family: 'Manrope', sans-serif;
-text-align: center;
-font-size: 16px;
-font-style: normal;
-width: 100%;
-font-weight: 500;
-line-height: 19.2px; /* 120% */
-letter-spacing: 1px;
-text-transform: uppercase;
-}
-.nftparagraph{
+
+.nftheading {
   color: #ffffff;
   font-family: 'Manrope', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28.25px; /* 175% */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  width: 100%;
+  line-height: 52px;
+  /* 130% */
+  text-transform: capitalize;
 }
-.nftpara{
+
+.nftsmall {
+  color: #eb5722;
+  font-family: 'Manrope', sans-serif;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 500;
+  line-height: 19.2px;
+  /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.s5small {
+  color: #eb5722;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 500;
+  line-height: 19.2px;
+  /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nftparagraph {
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28.25px;
+  /* 175% */
+}
+
+.nftpara {
   font-size: 18px;
   font-weight: 400;
-  z-index: 1;
+  z-index: 0;
+   
 }
-.nftbutton{
+
+.nftbutton {
   display: flex;
   flex-direction: row;
-  gap:40px;
-  
+  gap: 40px;
+
   width: 100%;
- 
-  }
+
+}
 
 /* CARDS */
 
@@ -208,7 +233,7 @@ line-height: 28.25px; /* 175% */
   font-weight: 600;
   border: none;
   cursor: pointer;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -220,7 +245,7 @@ line-height: 28.25px; /* 175% */
   top: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
   z-index: -1;
   transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
@@ -257,7 +282,7 @@ line-height: 28.25px; /* 175% */
 
   width: 22em;
   max-width: 80%;
- 
+
 }
 
 .n5card {
@@ -274,7 +299,8 @@ line-height: 28.25px; /* 175% */
   transition: all 0.35s ease;
 }
 
-.n5card::before, .n5card::after {
+.n5card::before,
+.n5card::after {
   content: "";
   position: absolute;
   top: 0;
@@ -307,7 +333,7 @@ line-height: 28.25px; /* 175% */
 .n5card .n5logo {
   margin: 0 0 1em;
   width: 100%;
-  
+
   transition: all 0.35s ease;
 }
 
@@ -328,7 +354,7 @@ line-height: 28.25px; /* 175% */
 
 .n5card .n5hover_content p {
   margin: 1.5em 0 0;
-  color: #6E6E70;
+  color: #c9c9cc;
   line-height: 1.4em;
 }
 
@@ -360,10 +386,10 @@ line-height: 28.25px; /* 175% */
 }
 
 
-@media (min-width:768px) and (max-width:1000px){
-  .nftcard{
+@media (min-width:768px) and (max-width:1000px) {
+  .nftcard {
     width: 40%;
-}
+  }
 }
 
 
@@ -373,7 +399,7 @@ line-height: 28.25px; /* 175% */
 :root {
   --background: #000000;
   --color: #FAFAFA;
- 
+
   --index: 0;
   --index: 1;
   --index: 2;
@@ -444,7 +470,8 @@ line-height: 28.25px; /* 175% */
     left: 100%;
   }
 }
-.nftbutton{
+
+.nftbutton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,18 +490,20 @@ line-height: 28.25px; /* 175% */
   display: grid;
   grid-template-columns: 1fr;
 }
-.overlay{
+
+.overlay {
   width: 100%;
   object-fit: cover;
   height: 100%;
   display: flex;
   position: absolute;
- opacity: 1;
+  opacity: 1;
   right: 0%;
   bottom: 0%;
-  background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.505) 39%, rgba(0, 0, 0, 0.308) 77%, rgba(0,0,0,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.505) 39%, rgba(0, 0, 0, 0.308) 77%, rgba(0, 0, 0, 1) 100%);
 }
+
 .stack span {
   font-weight: bold;
   grid-row-start: 1;
@@ -485,27 +514,37 @@ background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.505) 39%, 
   --clip-top: calc(var(--stack-height) * var(--index));
   --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
   clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
-  animation: stack 340ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
+  animation: stack 340ms cubic-bezier(.46, .29, 0, 1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
 }
 
-.stack span:nth-child(odd) { --glitch-translate: 8px; }
-.stack span:nth-child(even) { --glitch-translate: -8px; }
+.stack span:nth-child(odd) {
+  --glitch-translate: 8px;
+}
+
+.stack span:nth-child(even) {
+  --glitch-translate: -8px;
+}
 
 @keyframes stack {
   0% {
     opacity: 0;
     transform: translateX(-50%);
     text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
-  };
+  }
+
+  ;
+
   60% {
     opacity: 0.5;
     transform: translateX(50%);
   }
+
   80% {
     transform: none;
     opacity: 1;
     text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
   }
+
   100% {
     text-shadow: none;
   }
@@ -516,78 +555,108 @@ background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.505) 39%, 
     text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
     transform: translate(var(--glitch-translate));
   }
+
   2% {
     text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
   }
-  4%, 100% {  text-shadow: none; transform: none; }
+
+  4%,
+  100% {
+    text-shadow: none;
+    transform: none;
+  }
 }
 
 
 
-@media (max-width:768px){
-  #nftsec1{
-      flex-direction: column-reverse;
-      height: auto;
-      text-align: center;
-      height: 100vh;
-    
-      
+@media (max-width:768px) {
+
+  .stack0 {
+    font-size: 40px !important;
   }
-  #nftsec2{
-      flex-direction: column;
+
+  .stack1 {
+    font-size: 40px !important;
   }
-  #nftleft{
-      width: auto;
-      gap: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+
+  .stack2 {
+    font-size: 40px !important;
   }
-  .nfthead{
-      font-size: 30px;
-      font-weight: 700;
-      text-align: center;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  #nftsec1 {
+    flex-direction: column-reverse;
+    height: auto;
+    text-align: center;
+    height: 100vh;
+
+
   }
-  .nftpara{
+
+  #nftsec2 {
+    flex-direction: column;
+  }
+
+  #nftleft {
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nfthead {
+    font-size: 40px !important;
+    font-weight: 700;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .nftpara {
     font-size: 14px;
   }
- 
 
-  .nftcard{
-      width: auto;
+
+  .nftcard {
+    width: auto;
   }
-  #nftsec4{
-      flex-direction: column-reverse;
-      padding: 10px;
-      
+
+  #nftsec4 {
+    flex-direction: column-reverse;
+    padding: 10px;
+
   }
-  #nftsec5{
-      flex-direction: column;
-      padding: 10px;
-      justify-content: center;
-      align-items: center;
-      
+
+  #nftsec5 {
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
   }
-  #s5main{
-      
-      width: auto;
+
+  #s5main {
+
+    width: auto;
   }
-  .nftcard{
+
+  .nftcard {
     border: 1px solid rgba(255, 255, 255, 0.137);
   }
-  .nftvideo2{
+
+  .nftvideo2 {
     z-index: 0;
-  width: 100%;
-  height: 300px;
-  transform: scale(1.3);
-  
-  
-  
+    width: 100%;
+    height: 300px;
+    transform: scale(1.3);
+
+
+
   }
-  #nftright{
+
+  #nftright {
     width: 100%;
     display: flex;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
   }
 }
